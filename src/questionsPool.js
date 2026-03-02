@@ -3,35 +3,35 @@ export const questionsPool = [
         "id": "sp1",
         "sectionId": "decision",
         "title": {
-            "uz": "Data Integrity & Audit (Ssenariy 1)",
-            "ru": "Data Integrity & Audit (Сценарий 1)"
+            "uz": "IP & Espionage (Case 1)",
+            "ru": "IP & Espionage (Кейс 1)"
         },
         "questions": [
             {
                 "id": "q_sp1",
                 "title": {
-                    "uz": "Tahlika: Ichki auditda QP (Qualified Person) tomonidan mahsulot chiqarishdan oldin laboratoriya testlari natijalari o'zgartirilgani (Data Manipulation) aniqlandi. Mahsulot bozorga chiqib ketgan. (Case #1)",
-                    "ru": "Кризис: В ходе аудита выяснилось, что QP (Qualified Person) манипулировал результатами лабораторных тестов перед выпуском. Товар уже на рынке. (Кейс #1)"
+                    "uz": "Shubha: Kompaniyaning yangi dori formulasi raqib tomonidan patentlanganiga o'xshaydi. Ichki ma'lumot sizilgan bo'lishi mumkin. (Case #1)",
+                    "ru": "Шпионаж: Похоже, формула нового препарата компании была запатентована конкурентом. Возможна внутренняя утечка. (Кейс #1)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Darhol bozor (Market Recall) jarayonini boshlash, QP vakolatini to'xtatish va nazorat organlariga (MoH) xabar berish",
-                            "ru": "Немедленный отзыв с рынка (Recall), приостановка полномочий QP и уведомление регулятора (Минздрав)"
+                            "uz": "Zudlik bilan huquqiy va IT-audit o'tkazish, loyiha a'zolarini tekshirish va sudga tayyorgarlik ko'rish",
+                            "ru": "Немедленный юридический и IT-аудит, проверка участников проекта и подготовка к суду"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat kelajakdagi partiyalar uchun nazoratni kuchaytirish, mahsulotni bozorda qoldirish",
-                            "ru": "Усилить контроль только для будущих партий, оставить товар на рынке"
+                            "uz": "Raqib bilan muzokara qilib, foydani bo'lishishni taklif qilish",
+                            "ru": "Переговоры с конкурентом о разделе прибыли"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ichki tekshiruv tugaguncha ma'lumotni yashirish",
-                            "ru": "Скрывать информацию до окончания внутреннего расследования"
+                            "uz": "Hech narsa qilmaslik, yangi formula ustida ishlashni boshlash",
+                            "ru": "Ничего не делать, начать работу над новой формулой"
                         },
                         "score": 0
                     }
@@ -43,37 +43,37 @@ export const questionsPool = [
         "id": "sp2",
         "sectionId": "decision",
         "title": {
-            "uz": "Strategic Procurement (Ssenariy 2)",
-            "ru": "Strategic Procurement (Сценарий 2)"
+            "uz": "Public Safety & PR (Case 2)",
+            "ru": "Public Safety & PR (Кейс 2)"
         },
         "questions": [
             {
                 "id": "q_sp2",
                 "title": {
-                    "uz": "Strategiya: Global ta'minotchi kutilmaganda narxni 40% ga oshirdi. Sizda bor zaxira 3 oyga yetadi. Mintaqadagi yagona rasmiy diler sizsiz. (Case #2)",
-                    "ru": "Стратегия: Глобальный поставщик неожиданно поднял цены на 40%. Запаса хватит на 3 месяца. Вы единственный дилер в регионе. (Кейс #2)"
+                    "uz": "Inqiroz: Ijtimoiy tarmoqlarda doringizdan so'ng bolalarda allergik reaksiya ko'paygani haqida xabarlar tarqaldi. Rasmiy shikoyat yo'q. (Case #2)",
+                    "ru": "Безопасность и PR: В соцсетях появились сообщения об аллергии у детей после вашего препарата. Официальных жалоб нет. (Кейс #2)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Mijozlar bilan narxlarni bosqichma-bosqich oshirish bo'yicha muzokaralar boshlash va muqobil yetkazib beruvchilarni qidirish",
-                            "ru": "Начать переговоры с клиентами о поэтапном повышении цен и искать альтернативных поставщиков"
+                            "uz": "Zudlik bilan namunalar tahlilini boshlash, matbuot xizmati orqali rasmiy tekshiruv ketayotganini bildirish",
+                            "ru": "Начать анализ проб, официально заявить через пресс-службу о начале проверки"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Zaxiralarni sotishni to'xtatib, narxlar ko'tarilganini e'lon qilish",
-                            "ru": "Приостановить продажи и объявить о резком повышении цен"
+                            "uz": "Xabarlarni 'feyk' deb e'lon qilish va javob bermaslik",
+                            "ru": "Объявить сообщения фейками и молчать"
                         },
-                        "score": 8
+                        "score": 0
                     },
                     {
                         "text": {
-                            "uz": "Eski narxda sotishda davom etib, zarar ko'rish",
-                            "ru": "Продолжать продажи по старой цене в убыток"
+                            "uz": "Xabarlar o'chirilishi uchun ijtimoiy tarmoqlarga pul to'lash",
+                            "ru": "Заплатить за удаление постов в соцсетях"
                         },
-                        "score": 2
+                        "score": 0
                     }
                 ]
             }
@@ -83,37 +83,37 @@ export const questionsPool = [
         "id": "sp3",
         "sectionId": "decision",
         "title": {
-            "uz": "Ethics & High-Level Negotiation (Ssenariy 3)",
-            "ru": "Ethics & High-Level Negotiation (Сценарий 3)"
+            "uz": "Supply Chain Integrity (Case 3)",
+            "ru": "Supply Chain Integrity (Кейс 3)"
         },
         "questions": [
             {
                 "id": "q_sp3",
                 "title": {
-                    "uz": "Etika: Strategik mijoz (hukumat amaldori) shubhali tender shartlarini kiritmoqda va sizdan loyihani 'qo'llab-quvvatlash'ni so'rayapti. (Case #3)",
-                    "ru": "Этика: Стратегический клиент (госчиновник) вводит сомнительные условия тендера и просит 'поддержать' проект. (Кейс #3)"
+                    "uz": "Logistika: GDP auditi davomida mintaqaviy hamkor omborida haroratni nazorat qilish tizimi 1 hafta ishlamagani ma'lum bo'ldi. (Case #3)",
+                    "ru": "Логистика: Аудит выявил, что система климат-контроля на складе партнера не работала неделю. (Кейс #3)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Loyiha komplians qoidalariga zid ekanligini bildirish va qonuniy hamkorlik doirasida qolishni talab qilish",
-                            "ru": "Заявить о несоответствии проекта правилам комплаенса и требовать законных рамок сотрудничества"
+                            "uz": "Hamkor bilan shartnomani to'xtatish, u yerdagi barcha mahsulotlarni utilizatsiya qilish va zarar to'lanishini talab qilish",
+                            "ru": "Разрыв контракта с партнером, утилизация всей продукции и требование компенсации"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Qisman rozilik berish, keyinchalik xavfni baholash",
-                            "ru": "Частично согласиться, оценив риски позже"
+                            "uz": "Yaxshilab tekshirib, sifatli chiqqanlarini sotishga ruxsat berish",
+                            "ru": "Проверить и разрешить продажу того, что прошло тест"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Soliqdan qochish yo'llarini izlab, shartlarni bajarish",
-                            "ru": "Выполнить условия, ища пути минимизации налогов"
+                            "uz": "Jarima solish, lekin mahsulotni sotuvda qoldirish",
+                            "ru": "Оштрафовать, но оставить товар в продаже"
                         },
-                        "score": 0
+                        "score": 2
                     }
                 ]
             }
@@ -123,35 +123,35 @@ export const questionsPool = [
         "id": "sp4",
         "sectionId": "decision",
         "title": {
-            "uz": "Pharmacovigilance Crisis (Ssenariy 4)",
-            "ru": "Pharmacovigilance Crisis (Сценарий 4)"
+            "uz": "Strategic Market Access (Case 4)",
+            "ru": "Strategic Market Access (Кейс 4)"
         },
         "questions": [
             {
                 "id": "q_sp4",
                 "title": {
-                    "uz": "Farmakonazorat: Sizning eng ko'p sotiladigan doringizdan so'ng 3 ta o'lim holati qayd etildi. Sabab-oqibat aloqasi isbotlanmagan. (Case #4)",
-                    "ru": "Фармаконадзор: Зафиксировано 3 летальных случая после приема вашего самого продаваемого препарата. Связь не доказана. (Кейс #4)"
+                    "uz": "Bozor: Raqib kompaniya bozorni 'dempi'ng narxlar bilan egallamoqda. Sizning marjangiz tushib ketgan. (Case #4)",
+                    "ru": "Рынок: Конкурент захватывает рынок демпинговыми ценами. Ваша маржа упала. (Кейс #4)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Zudlik bilan savdoni to'xtatib turish, tergov boshlash va farmakologik nazorat organiga xabar berish",
-                            "ru": "Приостановить продажи, начать расследование и уведомить орган фармаконадзора"
+                            "uz": "Xizmat ko'rsatish sifati va dori ishonchliligiga urg'u berish, uzoq muddatli shartnomalar tuzish",
+                            "ru": "Упор на качество сервиса и надежность препарата, долгосрочные контракты"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Isbot topilmaguncha savdoni davom ettirish va shifokorlarga 'ehtiyot bo'lish'ni aytish",
-                            "ru": "Продолжать продажи до доказательства связи, сказав врачам быть осторожными"
+                            "uz": "Narxni raqibdan pastroq qilish (narx urushi)",
+                            "ru": "Снизить цену еще ниже конкурента (ценовая война)"
                         },
-                        "score": 8
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni yashirish va matbuotda inkor qilish",
-                            "ru": "Скрыть информацию и отрицать факты в прессе"
+                            "uz": "Sifatdan voz kechib, arzonroq komponentlarga o'tish",
+                            "ru": "Снизить качество, перейдя на дешевые компоненты"
                         },
                         "score": 0
                     }
@@ -163,37 +163,37 @@ export const questionsPool = [
         "id": "sp5",
         "sectionId": "decision",
         "title": {
-            "uz": "Logistics & Sanctions (Ssenariy 5)",
-            "ru": "Logistics & Sanctions (Сценарий 5)"
+            "uz": "Ethics & Compliance (Case 5)",
+            "ru": "Ethics & Compliance (Кейс 5)"
         },
         "questions": [
             {
                 "id": "q_sp5",
                 "title": {
-                    "uz": "Logistika: Banklararo blokovka tufayli chet eldagi zavodga to'lov o'tmadi. Yuk portda turibdi va sifatini yo'qotish xavfi bor. (Case #5)",
-                    "ru": "Логистика: Из-за блокировки межбанковских переводов оплата заводу за рубеж не прошла. Груз в порту, есть риск потери качества. (Кейс #5)"
+                    "uz": "Muvofiqlik: Kompaniya vakili shifokorlarga mahsulotni targ'ib qilish uchun qimmatbaho sovg'alar berayotgani haqida video chiqdi. (Case #5)",
+                    "ru": "Комплаенс: Появилось видео, как представитель компании дарит врачам дорогие подарки за лоббирование товара. (Кейс #5)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Muqobil bank kanallarini qidirish va yukni vaqtinchalik termal omborga ko'chirishni moliyalashtirish",
-                            "ru": "Искать альтернативные банковские каналы и профинансировать перемещение груза на термосклад"
+                            "uz": "Vakilni darhol ishdan bo'shatish, ichki komplians auditini o'tkazish va rasmiy uzr so'rash",
+                            "ru": "Мгновенное увольнение, внутренний аудит комплаенса и публичные извинения"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Bank muammosi hal bo'lishini kutish, yukka tegmaslik",
-                            "ru": "Ждать решения проблемы с банком, не трогая груз"
+                            "uz": "Bu vakilning shaxsiy tashabbusi ekanligini aytib, mas'uliyatdan qochish",
+                            "ru": "Сказать, что это личная инициатива сотрудника, и уйти от ответственности"
                         },
-                        "score": 0
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Zavoddan yukni bepul berib yuborishni iltimos qilish",
-                            "ru": "Просить завод отдать груз бесплатно на доверии"
+                            "uz": "Videoni o'chirishga harakat qilish va pul berish",
+                            "ru": "Попытаться выкупить и удалить видео"
                         },
-                        "score": 5
+                        "score": 0
                     }
                 ]
             }
@@ -203,35 +203,35 @@ export const questionsPool = [
         "id": "sp6",
         "sectionId": "decision",
         "title": {
-            "uz": "HR & Internal Security (Ssenariy 6)",
-            "ru": "HR & Internal Security (Сценарий 6)"
+            "uz": "Financial Crisis Management (Case 6)",
+            "ru": "Financial Crisis Management (Кейс 6)"
         },
         "questions": [
             {
                 "id": "q_sp6",
                 "title": {
-                    "uz": "Xavfsizlik: Bosh texnolog patentlangan formulani raqibga sotayotgani va unga o'tishga tayyorlanayotgani haqida shubha bor. (Case #6)",
-                    "ru": "Безопасность: Есть подозрение, что главный технолог продает формулу конкуренту и готовится к переходу. (Кейс #6)"
+                    "uz": "Moliya: Import qilinayotgan texnologiya uchun kredit foizlari kutilmaganda 2 barobar oshdi. Loyiha to'xtab qolish arafasida. (Case #6)",
+                    "ru": "Финансы: Процентные ставки по кредиту на импорт технологий выросли в 2 раза. Проект на грани закрытия. (Кейс #6)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "IT-audit o'tkazish, loyihalarga kirish huquqini cheklash va xavfsizlik xizmati bilan tergov o'tkazish",
-                            "ru": "Провести IT-аудит, ограничить доступ к проектам и провести расследование со службой безопасности"
+                            "uz": "Loyiha xarajatlarini qayta ko'rib chiqish, refinanslash imkoniyatlarini izlash va investorlarni jalb qilish",
+                            "ru": "Пересмотр сметы, поиск рефинансирования и привлечение инвесторов"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Uni darhol hayfsan bilan jazolash",
-                            "ru": "Сразу наказать выговором"
+                            "uz": "Loyihani butunlay to'xtatish va xodimlarni bo'shatish",
+                            "ru": "Заморозить проект и уволить сотрудников"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Inkor qilib, unga ishonishda davom etish",
-                            "ru": "Игнорировать подозрения, продолжая доверять"
+                            "uz": "To'lovlarni to'xtatib, sud kutish",
+                            "ru": "Прекратить выплаты и ждать суда"
                         },
                         "score": 0
                     }
@@ -243,35 +243,35 @@ export const questionsPool = [
         "id": "sp7",
         "sectionId": "decision",
         "title": {
-            "uz": "Market Access & Pricing (Ssenariy 7)",
-            "ru": "Market Access & Pricing (Сценарий 7)"
+            "uz": "Regulatory Affairs (Case 7)",
+            "ru": "Regulatory Affairs (Кейс 7)"
         },
         "questions": [
             {
                 "id": "q_sp7",
                 "title": {
-                    "uz": "Narx siyosati: Davlat hayotiy muhim dorilar narxini 20% ga tushirdi. Sizning marjangiz endi nolga teng. (Case #7)",
-                    "ru": "Ценовая политика: Государство снизило цены на ЖНВЛП на 20%. Ваша маржа теперь равна нулю. (Кейс #7)"
+                    "uz": "Regulatory: Yangi qonunchilikka ko'ra, dorilar 3 oy ichida mahalliy tilda markirovka qilinishi kerak. Sizning zaxiralaringizda eski markirovkali dori juda ko'p. (Case #7)",
+                    "ru": "Регуляторика: Новые правила требуют маркировки на местном языке через 3 месяца. У вас большие запасы со старой маркировкой. (Кейс #7)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Ishlab chiqaruvchi bilan narxni pasaytirish bo'yicha muzokaralar olib borish va operatsion xarajatlarni optimallashtirish",
-                            "ru": "Переговоры с производителем о снижении цен и оптимизация операционных издержек"
+                            "uz": "Zudlik bilan stikerlash (re-labeling) jarayonini tashkil qilish va litsenziya olish",
+                            "ru": "Срочная организация переклейки (стикерования) и получение лицензии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Mahsulotni bozordan butunlay olib chiqib ketish",
-                            "ru": "Полностью вывести продукт с рынка"
+                            "uz": "Eskilarni arzonroq sotib tugatishga harakat qilish",
+                            "ru": "Продать остатки со скидкой до дедлайна"
                         },
-                        "score": 5
+                        "score": 10
                     },
                     {
                         "text": {
-                            "uz": "Noqonuniy qo'shimcha narxlar qo'shib sotish",
-                            "ru": "Продавать с незаконными наценками сверху"
+                            "uz": "Qoidalarni chetlab o'tish yo'llarini izlash",
+                            "ru": "Искать пути обхода правил"
                         },
                         "score": 0
                     }
@@ -283,35 +283,35 @@ export const questionsPool = [
         "id": "sp8",
         "sectionId": "decision",
         "title": {
-            "uz": "Compliance & GDP Maintenance (Ssenariy 8)",
-            "ru": "Compliance & GDP Maintenance (Сценарий 8)"
+            "uz": "Pharmacovigilance (Case 8)",
+            "ru": "Pharmacovigilance (Кейс 8)"
         },
         "questions": [
             {
                 "id": "q_sp8",
                 "title": {
-                    "uz": " GDP: Ombor mudiri sovuqxonada harorat og'ishini (Deviation) yashirib, hujjatlarni qo'lda to'g'rilab qo'ygani aniqlandi. (Case #8)",
-                    "ru": "GDP: Заведующий складом скрыл отклонение температуры в холодной камере и вручную исправил документы. (Кейс #8)"
+                    "uz": "PV: Dori vositasi bilan bog'liq jiddiy yon ta'sirlar haqida 5 ta xabar keldi. Klinik tadqiqotlarda bular yo'q edi. (Case #8)",
+                    "ru": "ПВ: Поступило 5 сообщений о серьезных побочных эффектах. В клинике их не было. (Кейс #8)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimni qat'iy intizomiy jazolash (bo'shatishgacha), barcha partiyalarni karantinga olish va qayta testlar o'tkazish",
-                            "ru": "Строгое дисциплинарное взыскание (вплоть до увольнения), карантин всех партий и повторные тесты"
+                            "uz": "Signalni baholash (Signal Detection) o'tkazish, MoHga xabar berish va tibbiy yo'riqnomaga o'zgartirish kiritish",
+                            "ru": "Провести оценку сигналов (Signal Detection), уведомить Минздрав и обновить инструкцию"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat xodimga og'zaki tanbeh berish",
-                            "ru": "Только устный выговор сотруднику"
+                            "uz": "Ko'proq holatlar to'planishini kutish",
+                            "ru": "Ждать накопления данных"
                         },
-                        "score": 2
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Tekshiruvga qadar hujjatlarni shunday qoldirish",
-                            "ru": "Оставить документы как есть до проверки"
+                            "uz": "Xabarlarni 'tasodif' deb hisoblash",
+                            "ru": "Списать сообщения на случайность"
                         },
                         "score": 0
                     }
@@ -323,35 +323,35 @@ export const questionsPool = [
         "id": "sp9",
         "sectionId": "decision",
         "title": {
-            "uz": "Corporate Strategy (Ssenariy 9)",
-            "ru": "Corporate Strategy (Сценарий 9)"
+            "uz": "GMP Facility Integrity (Case 9)",
+            "ru": "GMP Facility Integrity (Кейс 9)"
         },
         "questions": [
             {
                 "id": "q_sp9",
                 "title": {
-                    "uz": "Korporativ: Kompaniya raqobatchi bilan birlashishni (Merger) rejalashtirmoqda. Xodimlar orasida vahima boshlandi va ish unumdorligi tushdi. (Case #9)",
-                    "ru": "Корпоратив: Компания планирует слияние с конкурентом. Среди сотрудников началась паника, продуктивность упала. (Кейс #9)"
+                    "uz": "GMP: Zavodning shamollatish tizimida (HVAC) mikrobiologik ifloslanish aniqlandi. Mahsulotlar tozaligi shubhali. (Case #9)",
+                    "ru": "GMP: В системе вентиляции завода (HVAC) обнаружено микробное загрязнение. Чистота продукта под вопросом. (Кейс #9)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimlar bilan ochiq muloqot o'tkazish, yangi istiqbollarni tushuntirish va kafolatlar berish",
-                            "ru": "Провести открытую встречу, объяснить перспективы и дать гарантии"
+                            "uz": "Ishlab chiqarishni to'xtatish, validatsiyadan o'tkazish va shubhali partiyalarni utilizatsiya qilish",
+                            "ru": "Остановить производство, провести валидацию и утилизировать подозрительные партии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni 'maxfiy' deb tasdiqlash va savollarga javob bermaslik",
-                            "ru": "Подтвердить секретность и не отвечать на вопросы"
+                            "uz": "Faqat filtrlarni almashtirish va ishlashda davom etish",
+                            "ru": "Просто заменить фильтры и работать дальше"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Eshma-gap tarqatganlarni darhol bo'shatish",
-                            "ru": "Уволить тех, кто распространяет слухи"
+                            "uz": "Keyingi tekshiruvgacha hech narsa qilmaslik",
+                            "ru": "Ничего не делать до следующей проверки"
                         },
                         "score": 0
                     }
@@ -363,35 +363,35 @@ export const questionsPool = [
         "id": "sp10",
         "sectionId": "decision",
         "title": {
-            "uz": "Financial Risk Management (Ssenariy 10)",
-            "ru": "Financial Risk Management (Сценарий 10)"
+            "uz": "Business Continuity (Case 10)",
+            "ru": "Business Continuity (Кейс 10)"
         },
         "questions": [
             {
                 "id": "q_sp10",
                 "title": {
-                    "uz": "Moliya: Kurs o'zgarishi tufayli valyuta bilan to'lanadigan qarzlar 50% ga oshdi. Kompaniya defolt holatiga kelib qolishi mumkin. (Case #10)",
-                    "ru": "Финансы: Из-за девальвации валютные долги выросли на 50%. Компании грозит дефолт. (Кейс #10)"
+                    "uz": "BCP: Asosiy yetkazib beruvchi davlatida urush yoki tabiiy ofat yuz berdi. Xomashyo yetkazib berish to'xtadi. (Case #10)",
+                    "ru": "BCP: В стране основного поставщика форс-мажор. Поставки сырья прекратились. (Кейс #10)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Kreditorlar bilan to'lov muddatlarini uzaytirishni muzokara qilish, xarajatlarni qisqartirish va valyuta risklarini xedjlash",
-                            "ru": "Переговоры о реструктуризации долга, сокращение расходов и хеджирование валютных рисков"
+                            "uz": "Zaxira yetkazib beruvchilarni faollashtirish va xomashyo narxi oshishiga qaramay ishlab chiqarishni saqlab qolish",
+                            "ru": "Активировать резервных поставщиков и сохранить производство, несмотря на рост цен"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Kredit olib, eski qarzni yopish",
-                            "ru": "Взять новый кредит, чтобы закрыть старый"
+                            "uz": "Zavodni vaqtincha yopish",
+                            "ru": "Временно закрыть завод"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Hech narsa qilmasdan, inqirozni o'tib ketishini kutish",
-                            "ru": "Ничего не делать, ждать пока кризис пройдет"
+                            "uz": "Xomashyoni qora bozordan sotib olishni o'ylash",
+                            "ru": "Рассмотреть покупку сырья на сером рынке"
                         },
                         "score": 0
                     }
@@ -403,35 +403,35 @@ export const questionsPool = [
         "id": "sp11",
         "sectionId": "decision",
         "title": {
-            "uz": "Data Integrity & Audit (Ssenariy 11)",
-            "ru": "Data Integrity & Audit (Сценарий 11)"
+            "uz": "IP & Espionage (Case 11)",
+            "ru": "IP & Espionage (Кейс 11)"
         },
         "questions": [
             {
                 "id": "q_sp11",
                 "title": {
-                    "uz": "Tahlika: Ichki auditda QP (Qualified Person) tomonidan mahsulot chiqarishdan oldin laboratoriya testlari natijalari o'zgartirilgani (Data Manipulation) aniqlandi. Mahsulot bozorga chiqib ketgan. (Case #11)",
-                    "ru": "Кризис: В ходе аудита выяснилось, что QP (Qualified Person) манипулировал результатами лабораторных тестов перед выпуском. Товар уже на рынке. (Кейс #11)"
+                    "uz": "Shubha: Kompaniyaning yangi dori formulasi raqib tomonidan patentlanganiga o'xshaydi. Ichki ma'lumot sizilgan bo'lishi mumkin. (Case #11)",
+                    "ru": "Шпионаж: Похоже, формула нового препарата компании была запатентована конкурентом. Возможна внутренняя утечка. (Кейс #11)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Darhol bozor (Market Recall) jarayonini boshlash, QP vakolatini to'xtatish va nazorat organlariga (MoH) xabar berish",
-                            "ru": "Немедленный отзыв с рынка (Recall), приостановка полномочий QP и уведомление регулятора (Минздрав)"
+                            "uz": "Zudlik bilan huquqiy va IT-audit o'tkazish, loyiha a'zolarini tekshirish va sudga tayyorgarlik ko'rish",
+                            "ru": "Немедленный юридический и IT-аудит, проверка участников проекта и подготовка к суду"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat kelajakdagi partiyalar uchun nazoratni kuchaytirish, mahsulotni bozorda qoldirish",
-                            "ru": "Усилить контроль только для будущих партий, оставить товар на рынке"
+                            "uz": "Raqib bilan muzokara qilib, foydani bo'lishishni taklif qilish",
+                            "ru": "Переговоры с конкурентом о разделе прибыли"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ichki tekshiruv tugaguncha ma'lumotni yashirish",
-                            "ru": "Скрывать информацию до окончания внутреннего расследования"
+                            "uz": "Hech narsa qilmaslik, yangi formula ustida ishlashni boshlash",
+                            "ru": "Ничего не делать, начать работу над новой формулой"
                         },
                         "score": 0
                     }
@@ -443,37 +443,37 @@ export const questionsPool = [
         "id": "sp12",
         "sectionId": "decision",
         "title": {
-            "uz": "Strategic Procurement (Ssenariy 12)",
-            "ru": "Strategic Procurement (Сценарий 12)"
+            "uz": "Public Safety & PR (Case 12)",
+            "ru": "Public Safety & PR (Кейс 12)"
         },
         "questions": [
             {
                 "id": "q_sp12",
                 "title": {
-                    "uz": "Strategiya: Global ta'minotchi kutilmaganda narxni 40% ga oshirdi. Sizda bor zaxira 3 oyga yetadi. Mintaqadagi yagona rasmiy diler sizsiz. (Case #12)",
-                    "ru": "Стратегия: Глобальный поставщик неожиданно поднял цены на 40%. Запаса хватит на 3 месяца. Вы единственный дилер в регионе. (Кейс #12)"
+                    "uz": "Inqiroz: Ijtimoiy tarmoqlarda doringizdan so'ng bolalarda allergik reaksiya ko'paygani haqida xabarlar tarqaldi. Rasmiy shikoyat yo'q. (Case #12)",
+                    "ru": "Безопасность и PR: В соцсетях появились сообщения об аллергии у детей после вашего препарата. Официальных жалоб нет. (Кейс #12)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Mijozlar bilan narxlarni bosqichma-bosqich oshirish bo'yicha muzokaralar boshlash va muqobil yetkazib beruvchilarni qidirish",
-                            "ru": "Начать переговоры с клиентами о поэтапном повышении цен и искать альтернативных поставщиков"
+                            "uz": "Zudlik bilan namunalar tahlilini boshlash, matbuot xizmati orqali rasmiy tekshiruv ketayotganini bildirish",
+                            "ru": "Начать анализ проб, официально заявить через пресс-службу о начале проверки"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Zaxiralarni sotishni to'xtatib, narxlar ko'tarilganini e'lon qilish",
-                            "ru": "Приостановить продажи и объявить о резком повышении цен"
+                            "uz": "Xabarlarni 'feyk' deb e'lon qilish va javob bermaslik",
+                            "ru": "Объявить сообщения фейками и молчать"
                         },
-                        "score": 8
+                        "score": 0
                     },
                     {
                         "text": {
-                            "uz": "Eski narxda sotishda davom etib, zarar ko'rish",
-                            "ru": "Продолжать продажи по старой цене в убыток"
+                            "uz": "Xabarlar o'chirilishi uchun ijtimoiy tarmoqlarga pul to'lash",
+                            "ru": "Заплатить за удаление постов в соцсетях"
                         },
-                        "score": 2
+                        "score": 0
                     }
                 ]
             }
@@ -483,37 +483,37 @@ export const questionsPool = [
         "id": "sp13",
         "sectionId": "decision",
         "title": {
-            "uz": "Ethics & High-Level Negotiation (Ssenariy 13)",
-            "ru": "Ethics & High-Level Negotiation (Сценарий 13)"
+            "uz": "Supply Chain Integrity (Case 13)",
+            "ru": "Supply Chain Integrity (Кейс 13)"
         },
         "questions": [
             {
                 "id": "q_sp13",
                 "title": {
-                    "uz": "Etika: Strategik mijoz (hukumat amaldori) shubhali tender shartlarini kiritmoqda va sizdan loyihani 'qo'llab-quvvatlash'ni so'rayapti. (Case #13)",
-                    "ru": "Этика: Стратегический клиент (госчиновник) вводит сомнительные условия тендера и просит 'поддержать' проект. (Кейс #13)"
+                    "uz": "Logistika: GDP auditi davomida mintaqaviy hamkor omborida haroratni nazorat qilish tizimi 1 hafta ishlamagani ma'lum bo'ldi. (Case #13)",
+                    "ru": "Логистика: Аудит выявил, что система климат-контроля на складе партнера не работала неделю. (Кейс #13)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Loyiha komplians qoidalariga zid ekanligini bildirish va qonuniy hamkorlik doirasida qolishni talab qilish",
-                            "ru": "Заявить о несоответствии проекта правилам комплаенса и требовать законных рамок сотрудничества"
+                            "uz": "Hamkor bilan shartnomani to'xtatish, u yerdagi barcha mahsulotlarni utilizatsiya qilish va zarar to'lanishini talab qilish",
+                            "ru": "Разрыв контракта с партнером, утилизация всей продукции и требование компенсации"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Qisman rozilik berish, keyinchalik xavfni baholash",
-                            "ru": "Частично согласиться, оценив риски позже"
+                            "uz": "Yaxshilab tekshirib, sifatli chiqqanlarini sotishga ruxsat berish",
+                            "ru": "Проверить и разрешить продажу того, что прошло тест"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Soliqdan qochish yo'llarini izlab, shartlarni bajarish",
-                            "ru": "Выполнить условия, ища пути минимизации налогов"
+                            "uz": "Jarima solish, lekin mahsulotni sotuvda qoldirish",
+                            "ru": "Оштрафовать, но оставить товар в продаже"
                         },
-                        "score": 0
+                        "score": 2
                     }
                 ]
             }
@@ -523,35 +523,35 @@ export const questionsPool = [
         "id": "sp14",
         "sectionId": "decision",
         "title": {
-            "uz": "Pharmacovigilance Crisis (Ssenariy 14)",
-            "ru": "Pharmacovigilance Crisis (Сценарий 14)"
+            "uz": "Strategic Market Access (Case 14)",
+            "ru": "Strategic Market Access (Кейс 14)"
         },
         "questions": [
             {
                 "id": "q_sp14",
                 "title": {
-                    "uz": "Farmakonazorat: Sizning eng ko'p sotiladigan doringizdan so'ng 3 ta o'lim holati qayd etildi. Sabab-oqibat aloqasi isbotlanmagan. (Case #14)",
-                    "ru": "Фармаконадзор: Зафиксировано 3 летальных случая после приема вашего самого продаваемого препарата. Связь не доказана. (Кейс #14)"
+                    "uz": "Bozor: Raqib kompaniya bozorni 'dempi'ng narxlar bilan egallamoqda. Sizning marjangiz tushib ketgan. (Case #14)",
+                    "ru": "Рынок: Конкурент захватывает рынок демпинговыми ценами. Ваша маржа упала. (Кейс #14)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Zudlik bilan savdoni to'xtatib turish, tergov boshlash va farmakologik nazorat organiga xabar berish",
-                            "ru": "Приостановить продажи, начать расследование и уведомить орган фармаконадзора"
+                            "uz": "Xizmat ko'rsatish sifati va dori ishonchliligiga urg'u berish, uzoq muddatli shartnomalar tuzish",
+                            "ru": "Упор на качество сервиса и надежность препарата, долгосрочные контракты"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Isbot topilmaguncha savdoni davom ettirish va shifokorlarga 'ehtiyot bo'lish'ni aytish",
-                            "ru": "Продолжать продажи до доказательства связи, сказав врачам быть осторожными"
+                            "uz": "Narxni raqibdan pastroq qilish (narx urushi)",
+                            "ru": "Снизить цену еще ниже конкурента (ценовая война)"
                         },
-                        "score": 8
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni yashirish va matbuotda inkor qilish",
-                            "ru": "Скрыть информацию и отрицать факты в прессе"
+                            "uz": "Sifatdan voz kechib, arzonroq komponentlarga o'tish",
+                            "ru": "Снизить качество, перейдя на дешевые компоненты"
                         },
                         "score": 0
                     }
@@ -563,37 +563,37 @@ export const questionsPool = [
         "id": "sp15",
         "sectionId": "decision",
         "title": {
-            "uz": "Logistics & Sanctions (Ssenariy 15)",
-            "ru": "Logistics & Sanctions (Сценарий 15)"
+            "uz": "Ethics & Compliance (Case 15)",
+            "ru": "Ethics & Compliance (Кейс 15)"
         },
         "questions": [
             {
                 "id": "q_sp15",
                 "title": {
-                    "uz": "Logistika: Banklararo blokovka tufayli chet eldagi zavodga to'lov o'tmadi. Yuk portda turibdi va sifatini yo'qotish xavfi bor. (Case #15)",
-                    "ru": "Логистика: Из-за блокировки межбанковских переводов оплата заводу за рубеж не прошла. Груз в порту, есть риск потери качества. (Кейс #15)"
+                    "uz": "Muvofiqlik: Kompaniya vakili shifokorlarga mahsulotni targ'ib qilish uchun qimmatbaho sovg'alar berayotgani haqida video chiqdi. (Case #15)",
+                    "ru": "Комплаенс: Появилось видео, как представитель компании дарит врачам дорогие подарки за лоббирование товара. (Кейс #15)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Muqobil bank kanallarini qidirish va yukni vaqtinchalik termal omborga ko'chirishni moliyalashtirish",
-                            "ru": "Искать альтернативные банковские каналы и профинансировать перемещение груза на термосклад"
+                            "uz": "Vakilni darhol ishdan bo'shatish, ichki komplians auditini o'tkazish va rasmiy uzr so'rash",
+                            "ru": "Мгновенное увольнение, внутренний аудит комплаенса и публичные извинения"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Bank muammosi hal bo'lishini kutish, yukka tegmaslik",
-                            "ru": "Ждать решения проблемы с банком, не трогая груз"
+                            "uz": "Bu vakilning shaxsiy tashabbusi ekanligini aytib, mas'uliyatdan qochish",
+                            "ru": "Сказать, что это личная инициатива сотрудника, и уйти от ответственности"
                         },
-                        "score": 0
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Zavoddan yukni bepul berib yuborishni iltimos qilish",
-                            "ru": "Просить завод отдать груз бесплатно на доверии"
+                            "uz": "Videoni o'chirishga harakat qilish va pul berish",
+                            "ru": "Попытаться выкупить и удалить видео"
                         },
-                        "score": 5
+                        "score": 0
                     }
                 ]
             }
@@ -603,35 +603,35 @@ export const questionsPool = [
         "id": "sp16",
         "sectionId": "decision",
         "title": {
-            "uz": "HR & Internal Security (Ssenariy 16)",
-            "ru": "HR & Internal Security (Сценарий 16)"
+            "uz": "Financial Crisis Management (Case 16)",
+            "ru": "Financial Crisis Management (Кейс 16)"
         },
         "questions": [
             {
                 "id": "q_sp16",
                 "title": {
-                    "uz": "Xavfsizlik: Bosh texnolog patentlangan formulani raqibga sotayotgani va unga o'tishga tayyorlanayotgani haqida shubha bor. (Case #16)",
-                    "ru": "Безопасность: Есть подозрение, что главный технолог продает формулу конкуренту и готовится к переходу. (Кейс #16)"
+                    "uz": "Moliya: Import qilinayotgan texnologiya uchun kredit foizlari kutilmaganda 2 barobar oshdi. Loyiha to'xtab qolish arafasida. (Case #16)",
+                    "ru": "Финансы: Процентные ставки по кредиту на импорт технологий выросли в 2 раза. Проект на грани закрытия. (Кейс #16)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "IT-audit o'tkazish, loyihalarga kirish huquqini cheklash va xavfsizlik xizmati bilan tergov o'tkazish",
-                            "ru": "Провести IT-аудит, ограничить доступ к проектам и провести расследование со службой безопасности"
+                            "uz": "Loyiha xarajatlarini qayta ko'rib chiqish, refinanslash imkoniyatlarini izlash va investorlarni jalb qilish",
+                            "ru": "Пересмотр сметы, поиск рефинансирования и привлечение инвесторов"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Uni darhol hayfsan bilan jazolash",
-                            "ru": "Сразу наказать выговором"
+                            "uz": "Loyihani butunlay to'xtatish va xodimlarni bo'shatish",
+                            "ru": "Заморозить проект и уволить сотрудников"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Inkor qilib, unga ishonishda davom etish",
-                            "ru": "Игнорировать подозрения, продолжая доверять"
+                            "uz": "To'lovlarni to'xtatib, sud kutish",
+                            "ru": "Прекратить выплаты и ждать суда"
                         },
                         "score": 0
                     }
@@ -643,35 +643,35 @@ export const questionsPool = [
         "id": "sp17",
         "sectionId": "decision",
         "title": {
-            "uz": "Market Access & Pricing (Ssenariy 17)",
-            "ru": "Market Access & Pricing (Сценарий 17)"
+            "uz": "Regulatory Affairs (Case 17)",
+            "ru": "Regulatory Affairs (Кейс 17)"
         },
         "questions": [
             {
                 "id": "q_sp17",
                 "title": {
-                    "uz": "Narx siyosati: Davlat hayotiy muhim dorilar narxini 20% ga tushirdi. Sizning marjangiz endi nolga teng. (Case #17)",
-                    "ru": "Ценовая политика: Государство снизило цены на ЖНВЛП на 20%. Ваша маржа теперь равна нулю. (Кейс #17)"
+                    "uz": "Regulatory: Yangi qonunchilikka ko'ra, dorilar 3 oy ichida mahalliy tilda markirovka qilinishi kerak. Sizning zaxiralaringizda eski markirovkali dori juda ko'p. (Case #17)",
+                    "ru": "Регуляторика: Новые правила требуют маркировки на местном языке через 3 месяца. У вас большие запасы со старой маркировкой. (Кейс #17)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Ishlab chiqaruvchi bilan narxni pasaytirish bo'yicha muzokaralar olib borish va operatsion xarajatlarni optimallashtirish",
-                            "ru": "Переговоры с производителем о снижении цен и оптимизация операционных издержек"
+                            "uz": "Zudlik bilan stikerlash (re-labeling) jarayonini tashkil qilish va litsenziya olish",
+                            "ru": "Срочная организация переклейки (стикерования) и получение лицензии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Mahsulotni bozordan butunlay olib chiqib ketish",
-                            "ru": "Полностью вывести продукт с рынка"
+                            "uz": "Eskilarni arzonroq sotib tugatishga harakat qilish",
+                            "ru": "Продать остатки со скидкой до дедлайна"
                         },
-                        "score": 5
+                        "score": 10
                     },
                     {
                         "text": {
-                            "uz": "Noqonuniy qo'shimcha narxlar qo'shib sotish",
-                            "ru": "Продавать с незаконными наценками сверху"
+                            "uz": "Qoidalarni chetlab o'tish yo'llarini izlash",
+                            "ru": "Искать пути обхода правил"
                         },
                         "score": 0
                     }
@@ -683,35 +683,35 @@ export const questionsPool = [
         "id": "sp18",
         "sectionId": "decision",
         "title": {
-            "uz": "Compliance & GDP Maintenance (Ssenariy 18)",
-            "ru": "Compliance & GDP Maintenance (Сценарий 18)"
+            "uz": "Pharmacovigilance (Case 18)",
+            "ru": "Pharmacovigilance (Кейс 18)"
         },
         "questions": [
             {
                 "id": "q_sp18",
                 "title": {
-                    "uz": " GDP: Ombor mudiri sovuqxonada harorat og'ishini (Deviation) yashirib, hujjatlarni qo'lda to'g'rilab qo'ygani aniqlandi. (Case #18)",
-                    "ru": "GDP: Заведующий складом скрыл отклонение температуры в холодной камере и вручную исправил документы. (Кейс #18)"
+                    "uz": "PV: Dori vositasi bilan bog'liq jiddiy yon ta'sirlar haqida 5 ta xabar keldi. Klinik tadqiqotlarda bular yo'q edi. (Case #18)",
+                    "ru": "ПВ: Поступило 5 сообщений о серьезных побочных эффектах. В клинике их не было. (Кейс #18)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimni qat'iy intizomiy jazolash (bo'shatishgacha), barcha partiyalarni karantinga olish va qayta testlar o'tkazish",
-                            "ru": "Строгое дисциплинарное взыскание (вплоть до увольнения), карантин всех партий и повторные тесты"
+                            "uz": "Signalni baholash (Signal Detection) o'tkazish, MoHga xabar berish va tibbiy yo'riqnomaga o'zgartirish kiritish",
+                            "ru": "Провести оценку сигналов (Signal Detection), уведомить Минздрав и обновить инструкцию"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat xodimga og'zaki tanbeh berish",
-                            "ru": "Только устный выговор сотруднику"
+                            "uz": "Ko'proq holatlar to'planishini kutish",
+                            "ru": "Ждать накопления данных"
                         },
-                        "score": 2
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Tekshiruvga qadar hujjatlarni shunday qoldirish",
-                            "ru": "Оставить документы как есть до проверки"
+                            "uz": "Xabarlarni 'tasodif' deb hisoblash",
+                            "ru": "Списать сообщения на случайность"
                         },
                         "score": 0
                     }
@@ -723,35 +723,35 @@ export const questionsPool = [
         "id": "sp19",
         "sectionId": "decision",
         "title": {
-            "uz": "Corporate Strategy (Ssenariy 19)",
-            "ru": "Corporate Strategy (Сценарий 19)"
+            "uz": "GMP Facility Integrity (Case 19)",
+            "ru": "GMP Facility Integrity (Кейс 19)"
         },
         "questions": [
             {
                 "id": "q_sp19",
                 "title": {
-                    "uz": "Korporativ: Kompaniya raqobatchi bilan birlashishni (Merger) rejalashtirmoqda. Xodimlar orasida vahima boshlandi va ish unumdorligi tushdi. (Case #19)",
-                    "ru": "Корпоратив: Компания планирует слияние с конкурентом. Среди сотрудников началась паника, продуктивность упала. (Кейс #19)"
+                    "uz": "GMP: Zavodning shamollatish tizimida (HVAC) mikrobiologik ifloslanish aniqlandi. Mahsulotlar tozaligi shubhali. (Case #19)",
+                    "ru": "GMP: В системе вентиляции завода (HVAC) обнаружено микробное загрязнение. Чистота продукта под вопросом. (Кейс #19)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimlar bilan ochiq muloqot o'tkazish, yangi istiqbollarni tushuntirish va kafolatlar berish",
-                            "ru": "Провести открытую встречу, объяснить перспективы и дать гарантии"
+                            "uz": "Ishlab chiqarishni to'xtatish, validatsiyadan o'tkazish va shubhali partiyalarni utilizatsiya qilish",
+                            "ru": "Остановить производство, провести валидацию и утилизировать подозрительные партии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni 'maxfiy' deb tasdiqlash va savollarga javob bermaslik",
-                            "ru": "Подтвердить секретность и не отвечать на вопросы"
+                            "uz": "Faqat filtrlarni almashtirish va ishlashda davom etish",
+                            "ru": "Просто заменить фильтры и работать дальше"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Eshma-gap tarqatganlarni darhol bo'shatish",
-                            "ru": "Уволить тех, кто распространяет слухи"
+                            "uz": "Keyingi tekshiruvgacha hech narsa qilmaslik",
+                            "ru": "Ничего не делать до следующей проверки"
                         },
                         "score": 0
                     }
@@ -763,35 +763,35 @@ export const questionsPool = [
         "id": "sp20",
         "sectionId": "decision",
         "title": {
-            "uz": "Financial Risk Management (Ssenariy 20)",
-            "ru": "Financial Risk Management (Сценарий 20)"
+            "uz": "Business Continuity (Case 20)",
+            "ru": "Business Continuity (Кейс 20)"
         },
         "questions": [
             {
                 "id": "q_sp20",
                 "title": {
-                    "uz": "Moliya: Kurs o'zgarishi tufayli valyuta bilan to'lanadigan qarzlar 50% ga oshdi. Kompaniya defolt holatiga kelib qolishi mumkin. (Case #20)",
-                    "ru": "Финансы: Из-за девальвации валютные долги выросли на 50%. Компании грозит дефолт. (Кейс #20)"
+                    "uz": "BCP: Asosiy yetkazib beruvchi davlatida urush yoki tabiiy ofat yuz berdi. Xomashyo yetkazib berish to'xtadi. (Case #20)",
+                    "ru": "BCP: В стране основного поставщика форс-мажор. Поставки сырья прекратились. (Кейс #20)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Kreditorlar bilan to'lov muddatlarini uzaytirishni muzokara qilish, xarajatlarni qisqartirish va valyuta risklarini xedjlash",
-                            "ru": "Переговоры о реструктуризации долга, сокращение расходов и хеджирование валютных рисков"
+                            "uz": "Zaxira yetkazib beruvchilarni faollashtirish va xomashyo narxi oshishiga qaramay ishlab chiqarishni saqlab qolish",
+                            "ru": "Активировать резервных поставщиков и сохранить производство, несмотря на рост цен"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Kredit olib, eski qarzni yopish",
-                            "ru": "Взять новый кредит, чтобы закрыть старый"
+                            "uz": "Zavodni vaqtincha yopish",
+                            "ru": "Временно закрыть завод"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Hech narsa qilmasdan, inqirozni o'tib ketishini kutish",
-                            "ru": "Ничего не делать, ждать пока кризис пройдет"
+                            "uz": "Xomashyoni qora bozordan sotib olishni o'ylash",
+                            "ru": "Рассмотреть покупку сырья на сером рынке"
                         },
                         "score": 0
                     }
@@ -803,35 +803,35 @@ export const questionsPool = [
         "id": "sp21",
         "sectionId": "decision",
         "title": {
-            "uz": "Data Integrity & Audit (Ssenariy 21)",
-            "ru": "Data Integrity & Audit (Сценарий 21)"
+            "uz": "IP & Espionage (Case 21)",
+            "ru": "IP & Espionage (Кейс 21)"
         },
         "questions": [
             {
                 "id": "q_sp21",
                 "title": {
-                    "uz": "Tahlika: Ichki auditda QP (Qualified Person) tomonidan mahsulot chiqarishdan oldin laboratoriya testlari natijalari o'zgartirilgani (Data Manipulation) aniqlandi. Mahsulot bozorga chiqib ketgan. (Case #21)",
-                    "ru": "Кризис: В ходе аудита выяснилось, что QP (Qualified Person) манипулировал результатами лабораторных тестов перед выпуском. Товар уже на рынке. (Кейс #21)"
+                    "uz": "Shubha: Kompaniyaning yangi dori formulasi raqib tomonidan patentlanganiga o'xshaydi. Ichki ma'lumot sizilgan bo'lishi mumkin. (Case #21)",
+                    "ru": "Шпионаж: Похоже, формула нового препарата компании была запатентована конкурентом. Возможна внутренняя утечка. (Кейс #21)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Darhol bozor (Market Recall) jarayonini boshlash, QP vakolatini to'xtatish va nazorat organlariga (MoH) xabar berish",
-                            "ru": "Немедленный отзыв с рынка (Recall), приостановка полномочий QP и уведомление регулятора (Минздрав)"
+                            "uz": "Zudlik bilan huquqiy va IT-audit o'tkazish, loyiha a'zolarini tekshirish va sudga tayyorgarlik ko'rish",
+                            "ru": "Немедленный юридический и IT-аудит, проверка участников проекта и подготовка к суду"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat kelajakdagi partiyalar uchun nazoratni kuchaytirish, mahsulotni bozorda qoldirish",
-                            "ru": "Усилить контроль только для будущих партий, оставить товар на рынке"
+                            "uz": "Raqib bilan muzokara qilib, foydani bo'lishishni taklif qilish",
+                            "ru": "Переговоры с конкурентом о разделе прибыли"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ichki tekshiruv tugaguncha ma'lumotni yashirish",
-                            "ru": "Скрывать информацию до окончания внутреннего расследования"
+                            "uz": "Hech narsa qilmaslik, yangi formula ustida ishlashni boshlash",
+                            "ru": "Ничего не делать, начать работу над новой формулой"
                         },
                         "score": 0
                     }
@@ -843,37 +843,37 @@ export const questionsPool = [
         "id": "sp22",
         "sectionId": "decision",
         "title": {
-            "uz": "Strategic Procurement (Ssenariy 22)",
-            "ru": "Strategic Procurement (Сценарий 22)"
+            "uz": "Public Safety & PR (Case 22)",
+            "ru": "Public Safety & PR (Кейс 22)"
         },
         "questions": [
             {
                 "id": "q_sp22",
                 "title": {
-                    "uz": "Strategiya: Global ta'minotchi kutilmaganda narxni 40% ga oshirdi. Sizda bor zaxira 3 oyga yetadi. Mintaqadagi yagona rasmiy diler sizsiz. (Case #22)",
-                    "ru": "Стратегия: Глобальный поставщик неожиданно поднял цены на 40%. Запаса хватит на 3 месяца. Вы единственный дилер в регионе. (Кейс #22)"
+                    "uz": "Inqiroz: Ijtimoiy tarmoqlarda doringizdan so'ng bolalarda allergik reaksiya ko'paygani haqida xabarlar tarqaldi. Rasmiy shikoyat yo'q. (Case #22)",
+                    "ru": "Безопасность и PR: В соцсетях появились сообщения об аллергии у детей после вашего препарата. Официальных жалоб нет. (Кейс #22)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Mijozlar bilan narxlarni bosqichma-bosqich oshirish bo'yicha muzokaralar boshlash va muqobil yetkazib beruvchilarni qidirish",
-                            "ru": "Начать переговоры с клиентами о поэтапном повышении цен и искать альтернативных поставщиков"
+                            "uz": "Zudlik bilan namunalar tahlilini boshlash, matbuot xizmati orqali rasmiy tekshiruv ketayotganini bildirish",
+                            "ru": "Начать анализ проб, официально заявить через пресс-службу о начале проверки"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Zaxiralarni sotishni to'xtatib, narxlar ko'tarilganini e'lon qilish",
-                            "ru": "Приостановить продажи и объявить о резком повышении цен"
+                            "uz": "Xabarlarni 'feyk' deb e'lon qilish va javob bermaslik",
+                            "ru": "Объявить сообщения фейками и молчать"
                         },
-                        "score": 8
+                        "score": 0
                     },
                     {
                         "text": {
-                            "uz": "Eski narxda sotishda davom etib, zarar ko'rish",
-                            "ru": "Продолжать продажи по старой цене в убыток"
+                            "uz": "Xabarlar o'chirilishi uchun ijtimoiy tarmoqlarga pul to'lash",
+                            "ru": "Заплатить за удаление постов в соцсетях"
                         },
-                        "score": 2
+                        "score": 0
                     }
                 ]
             }
@@ -883,37 +883,37 @@ export const questionsPool = [
         "id": "sp23",
         "sectionId": "decision",
         "title": {
-            "uz": "Ethics & High-Level Negotiation (Ssenariy 23)",
-            "ru": "Ethics & High-Level Negotiation (Сценарий 23)"
+            "uz": "Supply Chain Integrity (Case 23)",
+            "ru": "Supply Chain Integrity (Кейс 23)"
         },
         "questions": [
             {
                 "id": "q_sp23",
                 "title": {
-                    "uz": "Etika: Strategik mijoz (hukumat amaldori) shubhali tender shartlarini kiritmoqda va sizdan loyihani 'qo'llab-quvvatlash'ni so'rayapti. (Case #23)",
-                    "ru": "Этика: Стратегический клиент (госчиновник) вводит сомнительные условия тендера и просит 'поддержать' проект. (Кейс #23)"
+                    "uz": "Logistika: GDP auditi davomida mintaqaviy hamkor omborida haroratni nazorat qilish tizimi 1 hafta ishlamagani ma'lum bo'ldi. (Case #23)",
+                    "ru": "Логистика: Аудит выявил, что система климат-контроля на складе партнера не работала неделю. (Кейс #23)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Loyiha komplians qoidalariga zid ekanligini bildirish va qonuniy hamkorlik doirasida qolishni talab qilish",
-                            "ru": "Заявить о несоответствии проекта правилам комплаенса и требовать законных рамок сотрудничества"
+                            "uz": "Hamkor bilan shartnomani to'xtatish, u yerdagi barcha mahsulotlarni utilizatsiya qilish va zarar to'lanishini talab qilish",
+                            "ru": "Разрыв контракта с партнером, утилизация всей продукции и требование компенсации"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Qisman rozilik berish, keyinchalik xavfni baholash",
-                            "ru": "Частично согласиться, оценив риски позже"
+                            "uz": "Yaxshilab tekshirib, sifatli chiqqanlarini sotishga ruxsat berish",
+                            "ru": "Проверить и разрешить продажу того, что прошло тест"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Soliqdan qochish yo'llarini izlab, shartlarni bajarish",
-                            "ru": "Выполнить условия, ища пути минимизации налогов"
+                            "uz": "Jarima solish, lekin mahsulotni sotuvda qoldirish",
+                            "ru": "Оштрафовать, но оставить товар в продаже"
                         },
-                        "score": 0
+                        "score": 2
                     }
                 ]
             }
@@ -923,35 +923,35 @@ export const questionsPool = [
         "id": "sp24",
         "sectionId": "decision",
         "title": {
-            "uz": "Pharmacovigilance Crisis (Ssenariy 24)",
-            "ru": "Pharmacovigilance Crisis (Сценарий 24)"
+            "uz": "Strategic Market Access (Case 24)",
+            "ru": "Strategic Market Access (Кейс 24)"
         },
         "questions": [
             {
                 "id": "q_sp24",
                 "title": {
-                    "uz": "Farmakonazorat: Sizning eng ko'p sotiladigan doringizdan so'ng 3 ta o'lim holati qayd etildi. Sabab-oqibat aloqasi isbotlanmagan. (Case #24)",
-                    "ru": "Фармаконадзор: Зафиксировано 3 летальных случая после приема вашего самого продаваемого препарата. Связь не доказана. (Кейс #24)"
+                    "uz": "Bozor: Raqib kompaniya bozorni 'dempi'ng narxlar bilan egallamoqda. Sizning marjangiz tushib ketgan. (Case #24)",
+                    "ru": "Рынок: Конкурент захватывает рынок демпинговыми ценами. Ваша маржа упала. (Кейс #24)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Zudlik bilan savdoni to'xtatib turish, tergov boshlash va farmakologik nazorat organiga xabar berish",
-                            "ru": "Приостановить продажи, начать расследование и уведомить орган фармаконадзора"
+                            "uz": "Xizmat ko'rsatish sifati va dori ishonchliligiga urg'u berish, uzoq muddatli shartnomalar tuzish",
+                            "ru": "Упор на качество сервиса и надежность препарата, долгосрочные контракты"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Isbot topilmaguncha savdoni davom ettirish va shifokorlarga 'ehtiyot bo'lish'ni aytish",
-                            "ru": "Продолжать продажи до доказательства связи, сказав врачам быть осторожными"
+                            "uz": "Narxni raqibdan pastroq qilish (narx urushi)",
+                            "ru": "Снизить цену еще ниже конкурента (ценовая война)"
                         },
-                        "score": 8
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni yashirish va matbuotda inkor qilish",
-                            "ru": "Скрыть информацию и отрицать факты в прессе"
+                            "uz": "Sifatdan voz kechib, arzonroq komponentlarga o'tish",
+                            "ru": "Снизить качество, перейдя на дешевые компоненты"
                         },
                         "score": 0
                     }
@@ -963,37 +963,37 @@ export const questionsPool = [
         "id": "sp25",
         "sectionId": "decision",
         "title": {
-            "uz": "Logistics & Sanctions (Ssenariy 25)",
-            "ru": "Logistics & Sanctions (Сценарий 25)"
+            "uz": "Ethics & Compliance (Case 25)",
+            "ru": "Ethics & Compliance (Кейс 25)"
         },
         "questions": [
             {
                 "id": "q_sp25",
                 "title": {
-                    "uz": "Logistika: Banklararo blokovka tufayli chet eldagi zavodga to'lov o'tmadi. Yuk portda turibdi va sifatini yo'qotish xavfi bor. (Case #25)",
-                    "ru": "Логистика: Из-за блокировки межбанковских переводов оплата заводу за рубеж не прошла. Груз в порту, есть риск потери качества. (Кейс #25)"
+                    "uz": "Muvofiqlik: Kompaniya vakili shifokorlarga mahsulotni targ'ib qilish uchun qimmatbaho sovg'alar berayotgani haqida video chiqdi. (Case #25)",
+                    "ru": "Комплаенс: Появилось видео, как представитель компании дарит врачам дорогие подарки за лоббирование товара. (Кейс #25)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Muqobil bank kanallarini qidirish va yukni vaqtinchalik termal omborga ko'chirishni moliyalashtirish",
-                            "ru": "Искать альтернативные банковские каналы и профинансировать перемещение груза на термосклад"
+                            "uz": "Vakilni darhol ishdan bo'shatish, ichki komplians auditini o'tkazish va rasmiy uzr so'rash",
+                            "ru": "Мгновенное увольнение, внутренний аудит комплаенса и публичные извинения"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Bank muammosi hal bo'lishini kutish, yukka tegmaslik",
-                            "ru": "Ждать решения проблемы с банком, не трогая груз"
+                            "uz": "Bu vakilning shaxsiy tashabbusi ekanligini aytib, mas'uliyatdan qochish",
+                            "ru": "Сказать, что это личная инициатива сотрудника, и уйти от ответственности"
                         },
-                        "score": 0
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Zavoddan yukni bepul berib yuborishni iltimos qilish",
-                            "ru": "Просить завод отдать груз бесплатно на доверии"
+                            "uz": "Videoni o'chirishga harakat qilish va pul berish",
+                            "ru": "Попытаться выкупить и удалить видео"
                         },
-                        "score": 5
+                        "score": 0
                     }
                 ]
             }
@@ -1003,35 +1003,35 @@ export const questionsPool = [
         "id": "sp26",
         "sectionId": "decision",
         "title": {
-            "uz": "HR & Internal Security (Ssenariy 26)",
-            "ru": "HR & Internal Security (Сценарий 26)"
+            "uz": "Financial Crisis Management (Case 26)",
+            "ru": "Financial Crisis Management (Кейс 26)"
         },
         "questions": [
             {
                 "id": "q_sp26",
                 "title": {
-                    "uz": "Xavfsizlik: Bosh texnolog patentlangan formulani raqibga sotayotgani va unga o'tishga tayyorlanayotgani haqida shubha bor. (Case #26)",
-                    "ru": "Безопасность: Есть подозрение, что главный технолог продает формулу конкуренту и готовится к переходу. (Кейс #26)"
+                    "uz": "Moliya: Import qilinayotgan texnologiya uchun kredit foizlari kutilmaganda 2 barobar oshdi. Loyiha to'xtab qolish arafasida. (Case #26)",
+                    "ru": "Финансы: Процентные ставки по кредиту на импорт технологий выросли в 2 раза. Проект на грани закрытия. (Кейс #26)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "IT-audit o'tkazish, loyihalarga kirish huquqini cheklash va xavfsizlik xizmati bilan tergov o'tkazish",
-                            "ru": "Провести IT-аудит, ограничить доступ к проектам и провести расследование со службой безопасности"
+                            "uz": "Loyiha xarajatlarini qayta ko'rib chiqish, refinanslash imkoniyatlarini izlash va investorlarni jalb qilish",
+                            "ru": "Пересмотр сметы, поиск рефинансирования и привлечение инвесторов"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Uni darhol hayfsan bilan jazolash",
-                            "ru": "Сразу наказать выговором"
+                            "uz": "Loyihani butunlay to'xtatish va xodimlarni bo'shatish",
+                            "ru": "Заморозить проект и уволить сотрудников"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Inkor qilib, unga ishonishda davom etish",
-                            "ru": "Игнорировать подозрения, продолжая доверять"
+                            "uz": "To'lovlarni to'xtatib, sud kutish",
+                            "ru": "Прекратить выплаты и ждать суда"
                         },
                         "score": 0
                     }
@@ -1043,35 +1043,35 @@ export const questionsPool = [
         "id": "sp27",
         "sectionId": "decision",
         "title": {
-            "uz": "Market Access & Pricing (Ssenariy 27)",
-            "ru": "Market Access & Pricing (Сценарий 27)"
+            "uz": "Regulatory Affairs (Case 27)",
+            "ru": "Regulatory Affairs (Кейс 27)"
         },
         "questions": [
             {
                 "id": "q_sp27",
                 "title": {
-                    "uz": "Narx siyosati: Davlat hayotiy muhim dorilar narxini 20% ga tushirdi. Sizning marjangiz endi nolga teng. (Case #27)",
-                    "ru": "Ценовая политика: Государство снизило цены на ЖНВЛП на 20%. Ваша маржа теперь равна нулю. (Кейс #27)"
+                    "uz": "Regulatory: Yangi qonunchilikka ko'ra, dorilar 3 oy ichida mahalliy tilda markirovka qilinishi kerak. Sizning zaxiralaringizda eski markirovkali dori juda ko'p. (Case #27)",
+                    "ru": "Регуляторика: Новые правила требуют маркировки на местном языке через 3 месяца. У вас большие запасы со старой маркировкой. (Кейс #27)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Ishlab chiqaruvchi bilan narxni pasaytirish bo'yicha muzokaralar olib borish va operatsion xarajatlarni optimallashtirish",
-                            "ru": "Переговоры с производителем о снижении цен и оптимизация операционных издержек"
+                            "uz": "Zudlik bilan stikerlash (re-labeling) jarayonini tashkil qilish va litsenziya olish",
+                            "ru": "Срочная организация переклейки (стикерования) и получение лицензии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Mahsulotni bozordan butunlay olib chiqib ketish",
-                            "ru": "Полностью вывести продукт с рынка"
+                            "uz": "Eskilarni arzonroq sotib tugatishga harakat qilish",
+                            "ru": "Продать остатки со скидкой до дедлайна"
                         },
-                        "score": 5
+                        "score": 10
                     },
                     {
                         "text": {
-                            "uz": "Noqonuniy qo'shimcha narxlar qo'shib sotish",
-                            "ru": "Продавать с незаконными наценками сверху"
+                            "uz": "Qoidalarni chetlab o'tish yo'llarini izlash",
+                            "ru": "Искать пути обхода правил"
                         },
                         "score": 0
                     }
@@ -1083,35 +1083,35 @@ export const questionsPool = [
         "id": "sp28",
         "sectionId": "decision",
         "title": {
-            "uz": "Compliance & GDP Maintenance (Ssenariy 28)",
-            "ru": "Compliance & GDP Maintenance (Сценарий 28)"
+            "uz": "Pharmacovigilance (Case 28)",
+            "ru": "Pharmacovigilance (Кейс 28)"
         },
         "questions": [
             {
                 "id": "q_sp28",
                 "title": {
-                    "uz": " GDP: Ombor mudiri sovuqxonada harorat og'ishini (Deviation) yashirib, hujjatlarni qo'lda to'g'rilab qo'ygani aniqlandi. (Case #28)",
-                    "ru": "GDP: Заведующий складом скрыл отклонение температуры в холодной камере и вручную исправил документы. (Кейс #28)"
+                    "uz": "PV: Dori vositasi bilan bog'liq jiddiy yon ta'sirlar haqida 5 ta xabar keldi. Klinik tadqiqotlarda bular yo'q edi. (Case #28)",
+                    "ru": "ПВ: Поступило 5 сообщений о серьезных побочных эффектах. В клинике их не было. (Кейс #28)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimni qat'iy intizomiy jazolash (bo'shatishgacha), barcha partiyalarni karantinga olish va qayta testlar o'tkazish",
-                            "ru": "Строгое дисциплинарное взыскание (вплоть до увольнения), карантин всех партий и повторные тесты"
+                            "uz": "Signalni baholash (Signal Detection) o'tkazish, MoHga xabar berish va tibbiy yo'riqnomaga o'zgartirish kiritish",
+                            "ru": "Провести оценку сигналов (Signal Detection), уведомить Минздрав и обновить инструкцию"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat xodimga og'zaki tanbeh berish",
-                            "ru": "Только устный выговор сотруднику"
+                            "uz": "Ko'proq holatlar to'planishini kutish",
+                            "ru": "Ждать накопления данных"
                         },
-                        "score": 2
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Tekshiruvga qadar hujjatlarni shunday qoldirish",
-                            "ru": "Оставить документы как есть до проверки"
+                            "uz": "Xabarlarni 'tasodif' deb hisoblash",
+                            "ru": "Списать сообщения на случайность"
                         },
                         "score": 0
                     }
@@ -1123,35 +1123,35 @@ export const questionsPool = [
         "id": "sp29",
         "sectionId": "decision",
         "title": {
-            "uz": "Corporate Strategy (Ssenariy 29)",
-            "ru": "Corporate Strategy (Сценарий 29)"
+            "uz": "GMP Facility Integrity (Case 29)",
+            "ru": "GMP Facility Integrity (Кейс 29)"
         },
         "questions": [
             {
                 "id": "q_sp29",
                 "title": {
-                    "uz": "Korporativ: Kompaniya raqobatchi bilan birlashishni (Merger) rejalashtirmoqda. Xodimlar orasida vahima boshlandi va ish unumdorligi tushdi. (Case #29)",
-                    "ru": "Корпоратив: Компания планирует слияние с конкурентом. Среди сотрудников началась паника, продуктивность упала. (Кейс #29)"
+                    "uz": "GMP: Zavodning shamollatish tizimida (HVAC) mikrobiologik ifloslanish aniqlandi. Mahsulotlar tozaligi shubhali. (Case #29)",
+                    "ru": "GMP: В системе вентиляции завода (HVAC) обнаружено микробное загрязнение. Чистота продукта под вопросом. (Кейс #29)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimlar bilan ochiq muloqot o'tkazish, yangi istiqbollarni tushuntirish va kafolatlar berish",
-                            "ru": "Провести открытую встречу, объяснить перспективы и дать гарантии"
+                            "uz": "Ishlab chiqarishni to'xtatish, validatsiyadan o'tkazish va shubhali partiyalarni utilizatsiya qilish",
+                            "ru": "Остановить производство, провести валидацию и утилизировать подозрительные партии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni 'maxfiy' deb tasdiqlash va savollarga javob bermaslik",
-                            "ru": "Подтвердить секретность и не отвечать на вопросы"
+                            "uz": "Faqat filtrlarni almashtirish va ishlashda davom etish",
+                            "ru": "Просто заменить фильтры и работать дальше"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Eshma-gap tarqatganlarni darhol bo'shatish",
-                            "ru": "Уволить тех, кто распространяет слухи"
+                            "uz": "Keyingi tekshiruvgacha hech narsa qilmaslik",
+                            "ru": "Ничего не делать до следующей проверки"
                         },
                         "score": 0
                     }
@@ -1163,35 +1163,35 @@ export const questionsPool = [
         "id": "sp30",
         "sectionId": "decision",
         "title": {
-            "uz": "Financial Risk Management (Ssenariy 30)",
-            "ru": "Financial Risk Management (Сценарий 30)"
+            "uz": "Business Continuity (Case 30)",
+            "ru": "Business Continuity (Кейс 30)"
         },
         "questions": [
             {
                 "id": "q_sp30",
                 "title": {
-                    "uz": "Moliya: Kurs o'zgarishi tufayli valyuta bilan to'lanadigan qarzlar 50% ga oshdi. Kompaniya defolt holatiga kelib qolishi mumkin. (Case #30)",
-                    "ru": "Финансы: Из-за девальвации валютные долги выросли на 50%. Компании грозит дефолт. (Кейс #30)"
+                    "uz": "BCP: Asosiy yetkazib beruvchi davlatida urush yoki tabiiy ofat yuz berdi. Xomashyo yetkazib berish to'xtadi. (Case #30)",
+                    "ru": "BCP: В стране основного поставщика форс-мажор. Поставки сырья прекратились. (Кейс #30)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Kreditorlar bilan to'lov muddatlarini uzaytirishni muzokara qilish, xarajatlarni qisqartirish va valyuta risklarini xedjlash",
-                            "ru": "Переговоры о реструктуризации долга, сокращение расходов и хеджирование валютных рисков"
+                            "uz": "Zaxira yetkazib beruvchilarni faollashtirish va xomashyo narxi oshishiga qaramay ishlab chiqarishni saqlab qolish",
+                            "ru": "Активировать резервных поставщиков и сохранить производство, несмотря на рост цен"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Kredit olib, eski qarzni yopish",
-                            "ru": "Взять новый кредит, чтобы закрыть старый"
+                            "uz": "Zavodni vaqtincha yopish",
+                            "ru": "Временно закрыть завод"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Hech narsa qilmasdan, inqirozni o'tib ketishini kutish",
-                            "ru": "Ничего не делать, ждать пока кризис пройдет"
+                            "uz": "Xomashyoni qora bozordan sotib olishni o'ylash",
+                            "ru": "Рассмотреть покупку сырья на сером рынке"
                         },
                         "score": 0
                     }
@@ -1203,35 +1203,35 @@ export const questionsPool = [
         "id": "sp31",
         "sectionId": "decision",
         "title": {
-            "uz": "Data Integrity & Audit (Ssenariy 31)",
-            "ru": "Data Integrity & Audit (Сценарий 31)"
+            "uz": "IP & Espionage (Case 31)",
+            "ru": "IP & Espionage (Кейс 31)"
         },
         "questions": [
             {
                 "id": "q_sp31",
                 "title": {
-                    "uz": "Tahlika: Ichki auditda QP (Qualified Person) tomonidan mahsulot chiqarishdan oldin laboratoriya testlari natijalari o'zgartirilgani (Data Manipulation) aniqlandi. Mahsulot bozorga chiqib ketgan. (Case #31)",
-                    "ru": "Кризис: В ходе аудита выяснилось, что QP (Qualified Person) манипулировал результатами лабораторных тестов перед выпуском. Товар уже на рынке. (Кейс #31)"
+                    "uz": "Shubha: Kompaniyaning yangi dori formulasi raqib tomonidan patentlanganiga o'xshaydi. Ichki ma'lumot sizilgan bo'lishi mumkin. (Case #31)",
+                    "ru": "Шпионаж: Похоже, формула нового препарата компании была запатентована конкурентом. Возможна внутренняя утечка. (Кейс #31)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Darhol bozor (Market Recall) jarayonini boshlash, QP vakolatini to'xtatish va nazorat organlariga (MoH) xabar berish",
-                            "ru": "Немедленный отзыв с рынка (Recall), приостановка полномочий QP и уведомление регулятора (Минздрав)"
+                            "uz": "Zudlik bilan huquqiy va IT-audit o'tkazish, loyiha a'zolarini tekshirish va sudga tayyorgarlik ko'rish",
+                            "ru": "Немедленный юридический и IT-аудит, проверка участников проекта и подготовка к суду"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat kelajakdagi partiyalar uchun nazoratni kuchaytirish, mahsulotni bozorda qoldirish",
-                            "ru": "Усилить контроль только для будущих партий, оставить товар на рынке"
+                            "uz": "Raqib bilan muzokara qilib, foydani bo'lishishni taklif qilish",
+                            "ru": "Переговоры с конкурентом о разделе прибыли"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ichki tekshiruv tugaguncha ma'lumotni yashirish",
-                            "ru": "Скрывать информацию до окончания внутреннего расследования"
+                            "uz": "Hech narsa qilmaslik, yangi formula ustida ishlashni boshlash",
+                            "ru": "Ничего не делать, начать работу над новой формулой"
                         },
                         "score": 0
                     }
@@ -1243,37 +1243,37 @@ export const questionsPool = [
         "id": "sp32",
         "sectionId": "decision",
         "title": {
-            "uz": "Strategic Procurement (Ssenariy 32)",
-            "ru": "Strategic Procurement (Сценарий 32)"
+            "uz": "Public Safety & PR (Case 32)",
+            "ru": "Public Safety & PR (Кейс 32)"
         },
         "questions": [
             {
                 "id": "q_sp32",
                 "title": {
-                    "uz": "Strategiya: Global ta'minotchi kutilmaganda narxni 40% ga oshirdi. Sizda bor zaxira 3 oyga yetadi. Mintaqadagi yagona rasmiy diler sizsiz. (Case #32)",
-                    "ru": "Стратегия: Глобальный поставщик неожиданно поднял цены на 40%. Запаса хватит на 3 месяца. Вы единственный дилер в регионе. (Кейс #32)"
+                    "uz": "Inqiroz: Ijtimoiy tarmoqlarda doringizdan so'ng bolalarda allergik reaksiya ko'paygani haqida xabarlar tarqaldi. Rasmiy shikoyat yo'q. (Case #32)",
+                    "ru": "Безопасность и PR: В соцсетях появились сообщения об аллергии у детей после вашего препарата. Официальных жалоб нет. (Кейс #32)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Mijozlar bilan narxlarni bosqichma-bosqich oshirish bo'yicha muzokaralar boshlash va muqobil yetkazib beruvchilarni qidirish",
-                            "ru": "Начать переговоры с клиентами о поэтапном повышении цен и искать альтернативных поставщиков"
+                            "uz": "Zudlik bilan namunalar tahlilini boshlash, matbuot xizmati orqali rasmiy tekshiruv ketayotganini bildirish",
+                            "ru": "Начать анализ проб, официально заявить через пресс-службу о начале проверки"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Zaxiralarni sotishni to'xtatib, narxlar ko'tarilganini e'lon qilish",
-                            "ru": "Приостановить продажи и объявить о резком повышении цен"
+                            "uz": "Xabarlarni 'feyk' deb e'lon qilish va javob bermaslik",
+                            "ru": "Объявить сообщения фейками и молчать"
                         },
-                        "score": 8
+                        "score": 0
                     },
                     {
                         "text": {
-                            "uz": "Eski narxda sotishda davom etib, zarar ko'rish",
-                            "ru": "Продолжать продажи по старой цене в убыток"
+                            "uz": "Xabarlar o'chirilishi uchun ijtimoiy tarmoqlarga pul to'lash",
+                            "ru": "Заплатить за удаление постов в соцсетях"
                         },
-                        "score": 2
+                        "score": 0
                     }
                 ]
             }
@@ -1283,37 +1283,37 @@ export const questionsPool = [
         "id": "sp33",
         "sectionId": "decision",
         "title": {
-            "uz": "Ethics & High-Level Negotiation (Ssenariy 33)",
-            "ru": "Ethics & High-Level Negotiation (Сценарий 33)"
+            "uz": "Supply Chain Integrity (Case 33)",
+            "ru": "Supply Chain Integrity (Кейс 33)"
         },
         "questions": [
             {
                 "id": "q_sp33",
                 "title": {
-                    "uz": "Etika: Strategik mijoz (hukumat amaldori) shubhali tender shartlarini kiritmoqda va sizdan loyihani 'qo'llab-quvvatlash'ni so'rayapti. (Case #33)",
-                    "ru": "Этика: Стратегический клиент (госчиновник) вводит сомнительные условия тендера и просит 'поддержать' проект. (Кейс #33)"
+                    "uz": "Logistika: GDP auditi davomida mintaqaviy hamkor omborida haroratni nazorat qilish tizimi 1 hafta ishlamagani ma'lum bo'ldi. (Case #33)",
+                    "ru": "Логистика: Аудит выявил, что система климат-контроля на складе партнера не работала неделю. (Кейс #33)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Loyiha komplians qoidalariga zid ekanligini bildirish va qonuniy hamkorlik doirasida qolishni talab qilish",
-                            "ru": "Заявить о несоответствии проекта правилам комплаенса и требовать законных рамок сотрудничества"
+                            "uz": "Hamkor bilan shartnomani to'xtatish, u yerdagi barcha mahsulotlarni utilizatsiya qilish va zarar to'lanishini talab qilish",
+                            "ru": "Разрыв контракта с партнером, утилизация всей продукции и требование компенсации"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Qisman rozilik berish, keyinchalik xavfni baholash",
-                            "ru": "Частично согласиться, оценив риски позже"
+                            "uz": "Yaxshilab tekshirib, sifatli chiqqanlarini sotishga ruxsat berish",
+                            "ru": "Проверить и разрешить продажу того, что прошло тест"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Soliqdan qochish yo'llarini izlab, shartlarni bajarish",
-                            "ru": "Выполнить условия, ища пути минимизации налогов"
+                            "uz": "Jarima solish, lekin mahsulotni sotuvda qoldirish",
+                            "ru": "Оштрафовать, но оставить товар в продаже"
                         },
-                        "score": 0
+                        "score": 2
                     }
                 ]
             }
@@ -1323,35 +1323,35 @@ export const questionsPool = [
         "id": "sp34",
         "sectionId": "decision",
         "title": {
-            "uz": "Pharmacovigilance Crisis (Ssenariy 34)",
-            "ru": "Pharmacovigilance Crisis (Сценарий 34)"
+            "uz": "Strategic Market Access (Case 34)",
+            "ru": "Strategic Market Access (Кейс 34)"
         },
         "questions": [
             {
                 "id": "q_sp34",
                 "title": {
-                    "uz": "Farmakonazorat: Sizning eng ko'p sotiladigan doringizdan so'ng 3 ta o'lim holati qayd etildi. Sabab-oqibat aloqasi isbotlanmagan. (Case #34)",
-                    "ru": "Фармаконадзор: Зафиксировано 3 летальных случая после приема вашего самого продаваемого препарата. Связь не доказана. (Кейс #34)"
+                    "uz": "Bozor: Raqib kompaniya bozorni 'dempi'ng narxlar bilan egallamoqda. Sizning marjangiz tushib ketgan. (Case #34)",
+                    "ru": "Рынок: Конкурент захватывает рынок демпинговыми ценами. Ваша маржа упала. (Кейс #34)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Zudlik bilan savdoni to'xtatib turish, tergov boshlash va farmakologik nazorat organiga xabar berish",
-                            "ru": "Приостановить продажи, начать расследование и уведомить орган фармаконадзора"
+                            "uz": "Xizmat ko'rsatish sifati va dori ishonchliligiga urg'u berish, uzoq muddatli shartnomalar tuzish",
+                            "ru": "Упор на качество сервиса и надежность препарата, долгосрочные контракты"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Isbot topilmaguncha savdoni davom ettirish va shifokorlarga 'ehtiyot bo'lish'ni aytish",
-                            "ru": "Продолжать продажи до доказательства связи, сказав врачам быть осторожными"
+                            "uz": "Narxni raqibdan pastroq qilish (narx urushi)",
+                            "ru": "Снизить цену еще ниже конкурента (ценовая война)"
                         },
-                        "score": 8
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni yashirish va matbuotda inkor qilish",
-                            "ru": "Скрыть информацию и отрицать факты в прессе"
+                            "uz": "Sifatdan voz kechib, arzonroq komponentlarga o'tish",
+                            "ru": "Снизить качество, перейдя на дешевые компоненты"
                         },
                         "score": 0
                     }
@@ -1363,37 +1363,37 @@ export const questionsPool = [
         "id": "sp35",
         "sectionId": "decision",
         "title": {
-            "uz": "Logistics & Sanctions (Ssenariy 35)",
-            "ru": "Logistics & Sanctions (Сценарий 35)"
+            "uz": "Ethics & Compliance (Case 35)",
+            "ru": "Ethics & Compliance (Кейс 35)"
         },
         "questions": [
             {
                 "id": "q_sp35",
                 "title": {
-                    "uz": "Logistika: Banklararo blokovka tufayli chet eldagi zavodga to'lov o'tmadi. Yuk portda turibdi va sifatini yo'qotish xavfi bor. (Case #35)",
-                    "ru": "Логистика: Из-за блокировки межбанковских переводов оплата заводу за рубеж не прошла. Груз в порту, есть риск потери качества. (Кейс #35)"
+                    "uz": "Muvofiqlik: Kompaniya vakili shifokorlarga mahsulotni targ'ib qilish uchun qimmatbaho sovg'alar berayotgani haqida video chiqdi. (Case #35)",
+                    "ru": "Комплаенс: Появилось видео, как представитель компании дарит врачам дорогие подарки за лоббирование товара. (Кейс #35)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Muqobil bank kanallarini qidirish va yukni vaqtinchalik termal omborga ko'chirishni moliyalashtirish",
-                            "ru": "Искать альтернативные банковские каналы и профинансировать перемещение груза на термосклад"
+                            "uz": "Vakilni darhol ishdan bo'shatish, ichki komplians auditini o'tkazish va rasmiy uzr so'rash",
+                            "ru": "Мгновенное увольнение, внутренний аудит комплаенса и публичные извинения"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Bank muammosi hal bo'lishini kutish, yukka tegmaslik",
-                            "ru": "Ждать решения проблемы с банком, не трогая груз"
+                            "uz": "Bu vakilning shaxsiy tashabbusi ekanligini aytib, mas'uliyatdan qochish",
+                            "ru": "Сказать, что это личная инициатива сотрудника, и уйти от ответственности"
                         },
-                        "score": 0
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Zavoddan yukni bepul berib yuborishni iltimos qilish",
-                            "ru": "Просить завод отдать груз бесплатно на доверии"
+                            "uz": "Videoni o'chirishga harakat qilish va pul berish",
+                            "ru": "Попытаться выкупить и удалить видео"
                         },
-                        "score": 5
+                        "score": 0
                     }
                 ]
             }
@@ -1403,35 +1403,35 @@ export const questionsPool = [
         "id": "sp36",
         "sectionId": "decision",
         "title": {
-            "uz": "HR & Internal Security (Ssenariy 36)",
-            "ru": "HR & Internal Security (Сценарий 36)"
+            "uz": "Financial Crisis Management (Case 36)",
+            "ru": "Financial Crisis Management (Кейс 36)"
         },
         "questions": [
             {
                 "id": "q_sp36",
                 "title": {
-                    "uz": "Xavfsizlik: Bosh texnolog patentlangan formulani raqibga sotayotgani va unga o'tishga tayyorlanayotgani haqida shubha bor. (Case #36)",
-                    "ru": "Безопасность: Есть подозрение, что главный технолог продает формулу конкуренту и готовится к переходу. (Кейс #36)"
+                    "uz": "Moliya: Import qilinayotgan texnologiya uchun kredit foizlari kutilmaganda 2 barobar oshdi. Loyiha to'xtab qolish arafasida. (Case #36)",
+                    "ru": "Финансы: Процентные ставки по кредиту на импорт технологий выросли в 2 раза. Проект на грани закрытия. (Кейс #36)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "IT-audit o'tkazish, loyihalarga kirish huquqini cheklash va xavfsizlik xizmati bilan tergov o'tkazish",
-                            "ru": "Провести IT-аудит, ограничить доступ к проектам и провести расследование со службой безопасности"
+                            "uz": "Loyiha xarajatlarini qayta ko'rib chiqish, refinanslash imkoniyatlarini izlash va investorlarni jalb qilish",
+                            "ru": "Пересмотр сметы, поиск рефинансирования и привлечение инвесторов"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Uni darhol hayfsan bilan jazolash",
-                            "ru": "Сразу наказать выговором"
+                            "uz": "Loyihani butunlay to'xtatish va xodimlarni bo'shatish",
+                            "ru": "Заморозить проект и уволить сотрудников"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Inkor qilib, unga ishonishda davom etish",
-                            "ru": "Игнорировать подозрения, продолжая доверять"
+                            "uz": "To'lovlarni to'xtatib, sud kutish",
+                            "ru": "Прекратить выплаты и ждать суда"
                         },
                         "score": 0
                     }
@@ -1443,35 +1443,35 @@ export const questionsPool = [
         "id": "sp37",
         "sectionId": "decision",
         "title": {
-            "uz": "Market Access & Pricing (Ssenariy 37)",
-            "ru": "Market Access & Pricing (Сценарий 37)"
+            "uz": "Regulatory Affairs (Case 37)",
+            "ru": "Regulatory Affairs (Кейс 37)"
         },
         "questions": [
             {
                 "id": "q_sp37",
                 "title": {
-                    "uz": "Narx siyosati: Davlat hayotiy muhim dorilar narxini 20% ga tushirdi. Sizning marjangiz endi nolga teng. (Case #37)",
-                    "ru": "Ценовая политика: Государство снизило цены на ЖНВЛП на 20%. Ваша маржа теперь равна нулю. (Кейс #37)"
+                    "uz": "Regulatory: Yangi qonunchilikka ko'ra, dorilar 3 oy ichida mahalliy tilda markirovka qilinishi kerak. Sizning zaxiralaringizda eski markirovkali dori juda ko'p. (Case #37)",
+                    "ru": "Регуляторика: Новые правила требуют маркировки на местном языке через 3 месяца. У вас большие запасы со старой маркировкой. (Кейс #37)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Ishlab chiqaruvchi bilan narxni pasaytirish bo'yicha muzokaralar olib borish va operatsion xarajatlarni optimallashtirish",
-                            "ru": "Переговоры с производителем о снижении цен и оптимизация операционных издержек"
+                            "uz": "Zudlik bilan stikerlash (re-labeling) jarayonini tashkil qilish va litsenziya olish",
+                            "ru": "Срочная организация переклейки (стикерования) и получение лицензии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Mahsulotni bozordan butunlay olib chiqib ketish",
-                            "ru": "Полностью вывести продукт с рынка"
+                            "uz": "Eskilarni arzonroq sotib tugatishga harakat qilish",
+                            "ru": "Продать остатки со скидкой до дедлайна"
                         },
-                        "score": 5
+                        "score": 10
                     },
                     {
                         "text": {
-                            "uz": "Noqonuniy qo'shimcha narxlar qo'shib sotish",
-                            "ru": "Продавать с незаконными наценками сверху"
+                            "uz": "Qoidalarni chetlab o'tish yo'llarini izlash",
+                            "ru": "Искать пути обхода правил"
                         },
                         "score": 0
                     }
@@ -1483,35 +1483,35 @@ export const questionsPool = [
         "id": "sp38",
         "sectionId": "decision",
         "title": {
-            "uz": "Compliance & GDP Maintenance (Ssenariy 38)",
-            "ru": "Compliance & GDP Maintenance (Сценарий 38)"
+            "uz": "Pharmacovigilance (Case 38)",
+            "ru": "Pharmacovigilance (Кейс 38)"
         },
         "questions": [
             {
                 "id": "q_sp38",
                 "title": {
-                    "uz": " GDP: Ombor mudiri sovuqxonada harorat og'ishini (Deviation) yashirib, hujjatlarni qo'lda to'g'rilab qo'ygani aniqlandi. (Case #38)",
-                    "ru": "GDP: Заведующий складом скрыл отклонение температуры в холодной камере и вручную исправил документы. (Кейс #38)"
+                    "uz": "PV: Dori vositasi bilan bog'liq jiddiy yon ta'sirlar haqida 5 ta xabar keldi. Klinik tadqiqotlarda bular yo'q edi. (Case #38)",
+                    "ru": "ПВ: Поступило 5 сообщений о серьезных побочных эффектах. В клинике их не было. (Кейс #38)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimni qat'iy intizomiy jazolash (bo'shatishgacha), barcha partiyalarni karantinga olish va qayta testlar o'tkazish",
-                            "ru": "Строгое дисциплинарное взыскание (вплоть до увольнения), карантин всех партий и повторные тесты"
+                            "uz": "Signalni baholash (Signal Detection) o'tkazish, MoHga xabar berish va tibbiy yo'riqnomaga o'zgartirish kiritish",
+                            "ru": "Провести оценку сигналов (Signal Detection), уведомить Минздрав и обновить инструкцию"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat xodimga og'zaki tanbeh berish",
-                            "ru": "Только устный выговор сотруднику"
+                            "uz": "Ko'proq holatlar to'planishini kutish",
+                            "ru": "Ждать накопления данных"
                         },
-                        "score": 2
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Tekshiruvga qadar hujjatlarni shunday qoldirish",
-                            "ru": "Оставить документы как есть до проверки"
+                            "uz": "Xabarlarni 'tasodif' deb hisoblash",
+                            "ru": "Списать сообщения на случайность"
                         },
                         "score": 0
                     }
@@ -1523,35 +1523,35 @@ export const questionsPool = [
         "id": "sp39",
         "sectionId": "decision",
         "title": {
-            "uz": "Corporate Strategy (Ssenariy 39)",
-            "ru": "Corporate Strategy (Сценарий 39)"
+            "uz": "GMP Facility Integrity (Case 39)",
+            "ru": "GMP Facility Integrity (Кейс 39)"
         },
         "questions": [
             {
                 "id": "q_sp39",
                 "title": {
-                    "uz": "Korporativ: Kompaniya raqobatchi bilan birlashishni (Merger) rejalashtirmoqda. Xodimlar orasida vahima boshlandi va ish unumdorligi tushdi. (Case #39)",
-                    "ru": "Корпоратив: Компания планирует слияние с конкурентом. Среди сотрудников началась паника, продуктивность упала. (Кейс #39)"
+                    "uz": "GMP: Zavodning shamollatish tizimida (HVAC) mikrobiologik ifloslanish aniqlandi. Mahsulotlar tozaligi shubhali. (Case #39)",
+                    "ru": "GMP: В системе вентиляции завода (HVAC) обнаружено микробное загрязнение. Чистота продукта под вопросом. (Кейс #39)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimlar bilan ochiq muloqot o'tkazish, yangi istiqbollarni tushuntirish va kafolatlar berish",
-                            "ru": "Провести открытую встречу, объяснить перспективы и дать гарантии"
+                            "uz": "Ishlab chiqarishni to'xtatish, validatsiyadan o'tkazish va shubhali partiyalarni utilizatsiya qilish",
+                            "ru": "Остановить производство, провести валидацию и утилизировать подозрительные партии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni 'maxfiy' deb tasdiqlash va savollarga javob bermaslik",
-                            "ru": "Подтвердить секретность и не отвечать на вопросы"
+                            "uz": "Faqat filtrlarni almashtirish va ishlashda davom etish",
+                            "ru": "Просто заменить фильтры и работать дальше"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Eshma-gap tarqatganlarni darhol bo'shatish",
-                            "ru": "Уволить тех, кто распространяет слухи"
+                            "uz": "Keyingi tekshiruvgacha hech narsa qilmaslik",
+                            "ru": "Ничего не делать до следующей проверки"
                         },
                         "score": 0
                     }
@@ -1563,35 +1563,35 @@ export const questionsPool = [
         "id": "sp40",
         "sectionId": "decision",
         "title": {
-            "uz": "Financial Risk Management (Ssenariy 40)",
-            "ru": "Financial Risk Management (Сценарий 40)"
+            "uz": "Business Continuity (Case 40)",
+            "ru": "Business Continuity (Кейс 40)"
         },
         "questions": [
             {
                 "id": "q_sp40",
                 "title": {
-                    "uz": "Moliya: Kurs o'zgarishi tufayli valyuta bilan to'lanadigan qarzlar 50% ga oshdi. Kompaniya defolt holatiga kelib qolishi mumkin. (Case #40)",
-                    "ru": "Финансы: Из-за девальвации валютные долги выросли на 50%. Компании грозит дефолт. (Кейс #40)"
+                    "uz": "BCP: Asosiy yetkazib beruvchi davlatida urush yoki tabiiy ofat yuz berdi. Xomashyo yetkazib berish to'xtadi. (Case #40)",
+                    "ru": "BCP: В стране основного поставщика форс-мажор. Поставки сырья прекратились. (Кейс #40)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Kreditorlar bilan to'lov muddatlarini uzaytirishni muzokara qilish, xarajatlarni qisqartirish va valyuta risklarini xedjlash",
-                            "ru": "Переговоры о реструктуризации долга, сокращение расходов и хеджирование валютных рисков"
+                            "uz": "Zaxira yetkazib beruvchilarni faollashtirish va xomashyo narxi oshishiga qaramay ishlab chiqarishni saqlab qolish",
+                            "ru": "Активировать резервных поставщиков и сохранить производство, несмотря на рост цен"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Kredit olib, eski qarzni yopish",
-                            "ru": "Взять новый кредит, чтобы закрыть старый"
+                            "uz": "Zavodni vaqtincha yopish",
+                            "ru": "Временно закрыть завод"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Hech narsa qilmasdan, inqirozni o'tib ketishini kutish",
-                            "ru": "Ничего не делать, ждать пока кризис пройдет"
+                            "uz": "Xomashyoni qora bozordan sotib olishni o'ylash",
+                            "ru": "Рассмотреть покупку сырья на сером рынке"
                         },
                         "score": 0
                     }
@@ -1603,35 +1603,35 @@ export const questionsPool = [
         "id": "sp41",
         "sectionId": "decision",
         "title": {
-            "uz": "Data Integrity & Audit (Ssenariy 41)",
-            "ru": "Data Integrity & Audit (Сценарий 41)"
+            "uz": "IP & Espionage (Case 41)",
+            "ru": "IP & Espionage (Кейс 41)"
         },
         "questions": [
             {
                 "id": "q_sp41",
                 "title": {
-                    "uz": "Tahlika: Ichki auditda QP (Qualified Person) tomonidan mahsulot chiqarishdan oldin laboratoriya testlari natijalari o'zgartirilgani (Data Manipulation) aniqlandi. Mahsulot bozorga chiqib ketgan. (Case #41)",
-                    "ru": "Кризис: В ходе аудита выяснилось, что QP (Qualified Person) манипулировал результатами лабораторных тестов перед выпуском. Товар уже на рынке. (Кейс #41)"
+                    "uz": "Shubha: Kompaniyaning yangi dori formulasi raqib tomonidan patentlanganiga o'xshaydi. Ichki ma'lumot sizilgan bo'lishi mumkin. (Case #41)",
+                    "ru": "Шпионаж: Похоже, формула нового препарата компании была запатентована конкурентом. Возможна внутренняя утечка. (Кейс #41)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Darhol bozor (Market Recall) jarayonini boshlash, QP vakolatini to'xtatish va nazorat organlariga (MoH) xabar berish",
-                            "ru": "Немедленный отзыв с рынка (Recall), приостановка полномочий QP и уведомление регулятора (Минздрав)"
+                            "uz": "Zudlik bilan huquqiy va IT-audit o'tkazish, loyiha a'zolarini tekshirish va sudga tayyorgarlik ko'rish",
+                            "ru": "Немедленный юридический и IT-аудит, проверка участников проекта и подготовка к суду"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat kelajakdagi partiyalar uchun nazoratni kuchaytirish, mahsulotni bozorda qoldirish",
-                            "ru": "Усилить контроль только для будущих партий, оставить товар на рынке"
+                            "uz": "Raqib bilan muzokara qilib, foydani bo'lishishni taklif qilish",
+                            "ru": "Переговоры с конкурентом о разделе прибыли"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ichki tekshiruv tugaguncha ma'lumotni yashirish",
-                            "ru": "Скрывать информацию до окончания внутреннего расследования"
+                            "uz": "Hech narsa qilmaslik, yangi formula ustida ishlashni boshlash",
+                            "ru": "Ничего не делать, начать работу над новой формулой"
                         },
                         "score": 0
                     }
@@ -1643,37 +1643,37 @@ export const questionsPool = [
         "id": "sp42",
         "sectionId": "decision",
         "title": {
-            "uz": "Strategic Procurement (Ssenariy 42)",
-            "ru": "Strategic Procurement (Сценарий 42)"
+            "uz": "Public Safety & PR (Case 42)",
+            "ru": "Public Safety & PR (Кейс 42)"
         },
         "questions": [
             {
                 "id": "q_sp42",
                 "title": {
-                    "uz": "Strategiya: Global ta'minotchi kutilmaganda narxni 40% ga oshirdi. Sizda bor zaxira 3 oyga yetadi. Mintaqadagi yagona rasmiy diler sizsiz. (Case #42)",
-                    "ru": "Стратегия: Глобальный поставщик неожиданно поднял цены на 40%. Запаса хватит на 3 месяца. Вы единственный дилер в регионе. (Кейс #42)"
+                    "uz": "Inqiroz: Ijtimoiy tarmoqlarda doringizdan so'ng bolalarda allergik reaksiya ko'paygani haqida xabarlar tarqaldi. Rasmiy shikoyat yo'q. (Case #42)",
+                    "ru": "Безопасность и PR: В соцсетях появились сообщения об аллергии у детей после вашего препарата. Официальных жалоб нет. (Кейс #42)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Mijozlar bilan narxlarni bosqichma-bosqich oshirish bo'yicha muzokaralar boshlash va muqobil yetkazib beruvchilarni qidirish",
-                            "ru": "Начать переговоры с клиентами о поэтапном повышении цен и искать альтернативных поставщиков"
+                            "uz": "Zudlik bilan namunalar tahlilini boshlash, matbuot xizmati orqali rasmiy tekshiruv ketayotganini bildirish",
+                            "ru": "Начать анализ проб, официально заявить через пресс-службу о начале проверки"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Zaxiralarni sotishni to'xtatib, narxlar ko'tarilganini e'lon qilish",
-                            "ru": "Приостановить продажи и объявить о резком повышении цен"
+                            "uz": "Xabarlarni 'feyk' deb e'lon qilish va javob bermaslik",
+                            "ru": "Объявить сообщения фейками и молчать"
                         },
-                        "score": 8
+                        "score": 0
                     },
                     {
                         "text": {
-                            "uz": "Eski narxda sotishda davom etib, zarar ko'rish",
-                            "ru": "Продолжать продажи по старой цене в убыток"
+                            "uz": "Xabarlar o'chirilishi uchun ijtimoiy tarmoqlarga pul to'lash",
+                            "ru": "Заплатить за удаление постов в соцсетях"
                         },
-                        "score": 2
+                        "score": 0
                     }
                 ]
             }
@@ -1683,37 +1683,37 @@ export const questionsPool = [
         "id": "sp43",
         "sectionId": "decision",
         "title": {
-            "uz": "Ethics & High-Level Negotiation (Ssenariy 43)",
-            "ru": "Ethics & High-Level Negotiation (Сценарий 43)"
+            "uz": "Supply Chain Integrity (Case 43)",
+            "ru": "Supply Chain Integrity (Кейс 43)"
         },
         "questions": [
             {
                 "id": "q_sp43",
                 "title": {
-                    "uz": "Etika: Strategik mijoz (hukumat amaldori) shubhali tender shartlarini kiritmoqda va sizdan loyihani 'qo'llab-quvvatlash'ni so'rayapti. (Case #43)",
-                    "ru": "Этика: Стратегический клиент (госчиновник) вводит сомнительные условия тендера и просит 'поддержать' проект. (Кейс #43)"
+                    "uz": "Logistika: GDP auditi davomida mintaqaviy hamkor omborida haroratni nazorat qilish tizimi 1 hafta ishlamagani ma'lum bo'ldi. (Case #43)",
+                    "ru": "Логистика: Аудит выявил, что система климат-контроля на складе партнера не работала неделю. (Кейс #43)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Loyiha komplians qoidalariga zid ekanligini bildirish va qonuniy hamkorlik doirasida qolishni talab qilish",
-                            "ru": "Заявить о несоответствии проекта правилам комплаенса и требовать законных рамок сотрудничества"
+                            "uz": "Hamkor bilan shartnomani to'xtatish, u yerdagi barcha mahsulotlarni utilizatsiya qilish va zarar to'lanishini talab qilish",
+                            "ru": "Разрыв контракта с партнером, утилизация всей продукции и требование компенсации"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Qisman rozilik berish, keyinchalik xavfni baholash",
-                            "ru": "Частично согласиться, оценив риски позже"
+                            "uz": "Yaxshilab tekshirib, sifatli chiqqanlarini sotishga ruxsat berish",
+                            "ru": "Проверить и разрешить продажу того, что прошло тест"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Soliqdan qochish yo'llarini izlab, shartlarni bajarish",
-                            "ru": "Выполнить условия, ища пути минимизации налогов"
+                            "uz": "Jarima solish, lekin mahsulotni sotuvda qoldirish",
+                            "ru": "Оштрафовать, но оставить товар в продаже"
                         },
-                        "score": 0
+                        "score": 2
                     }
                 ]
             }
@@ -1723,35 +1723,35 @@ export const questionsPool = [
         "id": "sp44",
         "sectionId": "decision",
         "title": {
-            "uz": "Pharmacovigilance Crisis (Ssenariy 44)",
-            "ru": "Pharmacovigilance Crisis (Сценарий 44)"
+            "uz": "Strategic Market Access (Case 44)",
+            "ru": "Strategic Market Access (Кейс 44)"
         },
         "questions": [
             {
                 "id": "q_sp44",
                 "title": {
-                    "uz": "Farmakonazorat: Sizning eng ko'p sotiladigan doringizdan so'ng 3 ta o'lim holati qayd etildi. Sabab-oqibat aloqasi isbotlanmagan. (Case #44)",
-                    "ru": "Фармаконадзор: Зафиксировано 3 летальных случая после приема вашего самого продаваемого препарата. Связь не доказана. (Кейс #44)"
+                    "uz": "Bozor: Raqib kompaniya bozorni 'dempi'ng narxlar bilan egallamoqda. Sizning marjangiz tushib ketgan. (Case #44)",
+                    "ru": "Рынок: Конкурент захватывает рынок демпинговыми ценами. Ваша маржа упала. (Кейс #44)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Zudlik bilan savdoni to'xtatib turish, tergov boshlash va farmakologik nazorat organiga xabar berish",
-                            "ru": "Приостановить продажи, начать расследование и уведомить орган фармаконадзора"
+                            "uz": "Xizmat ko'rsatish sifati va dori ishonchliligiga urg'u berish, uzoq muddatli shartnomalar tuzish",
+                            "ru": "Упор на качество сервиса и надежность препарата, долгосрочные контракты"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Isbot topilmaguncha savdoni davom ettirish va shifokorlarga 'ehtiyot bo'lish'ni aytish",
-                            "ru": "Продолжать продажи до доказательства связи, сказав врачам быть осторожными"
+                            "uz": "Narxni raqibdan pastroq qilish (narx urushi)",
+                            "ru": "Снизить цену еще ниже конкурента (ценовая война)"
                         },
-                        "score": 8
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni yashirish va matbuotda inkor qilish",
-                            "ru": "Скрыть информацию и отрицать факты в прессе"
+                            "uz": "Sifatdan voz kechib, arzonroq komponentlarga o'tish",
+                            "ru": "Снизить качество, перейдя на дешевые компоненты"
                         },
                         "score": 0
                     }
@@ -1763,37 +1763,37 @@ export const questionsPool = [
         "id": "sp45",
         "sectionId": "decision",
         "title": {
-            "uz": "Logistics & Sanctions (Ssenariy 45)",
-            "ru": "Logistics & Sanctions (Сценарий 45)"
+            "uz": "Ethics & Compliance (Case 45)",
+            "ru": "Ethics & Compliance (Кейс 45)"
         },
         "questions": [
             {
                 "id": "q_sp45",
                 "title": {
-                    "uz": "Logistika: Banklararo blokovka tufayli chet eldagi zavodga to'lov o'tmadi. Yuk portda turibdi va sifatini yo'qotish xavfi bor. (Case #45)",
-                    "ru": "Логистика: Из-за блокировки межбанковских переводов оплата заводу за рубеж не прошла. Груз в порту, есть риск потери качества. (Кейс #45)"
+                    "uz": "Muvofiqlik: Kompaniya vakili shifokorlarga mahsulotni targ'ib qilish uchun qimmatbaho sovg'alar berayotgani haqida video chiqdi. (Case #45)",
+                    "ru": "Комплаенс: Появилось видео, как представитель компании дарит врачам дорогие подарки за лоббирование товара. (Кейс #45)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Muqobil bank kanallarini qidirish va yukni vaqtinchalik termal omborga ko'chirishni moliyalashtirish",
-                            "ru": "Искать альтернативные банковские каналы и профинансировать перемещение груза на термосклад"
+                            "uz": "Vakilni darhol ishdan bo'shatish, ichki komplians auditini o'tkazish va rasmiy uzr so'rash",
+                            "ru": "Мгновенное увольнение, внутренний аудит комплаенса и публичные извинения"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Bank muammosi hal bo'lishini kutish, yukka tegmaslik",
-                            "ru": "Ждать решения проблемы с банком, не трогая груз"
+                            "uz": "Bu vakilning shaxsiy tashabbusi ekanligini aytib, mas'uliyatdan qochish",
+                            "ru": "Сказать, что это личная инициатива сотрудника, и уйти от ответственности"
                         },
-                        "score": 0
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Zavoddan yukni bepul berib yuborishni iltimos qilish",
-                            "ru": "Просить завод отдать груз бесплатно на доверии"
+                            "uz": "Videoni o'chirishga harakat qilish va pul berish",
+                            "ru": "Попытаться выкупить и удалить видео"
                         },
-                        "score": 5
+                        "score": 0
                     }
                 ]
             }
@@ -1803,35 +1803,35 @@ export const questionsPool = [
         "id": "sp46",
         "sectionId": "decision",
         "title": {
-            "uz": "HR & Internal Security (Ssenariy 46)",
-            "ru": "HR & Internal Security (Сценарий 46)"
+            "uz": "Financial Crisis Management (Case 46)",
+            "ru": "Financial Crisis Management (Кейс 46)"
         },
         "questions": [
             {
                 "id": "q_sp46",
                 "title": {
-                    "uz": "Xavfsizlik: Bosh texnolog patentlangan formulani raqibga sotayotgani va unga o'tishga tayyorlanayotgani haqida shubha bor. (Case #46)",
-                    "ru": "Безопасность: Есть подозрение, что главный технолог продает формулу конкуренту и готовится к переходу. (Кейс #46)"
+                    "uz": "Moliya: Import qilinayotgan texnologiya uchun kredit foizlari kutilmaganda 2 barobar oshdi. Loyiha to'xtab qolish arafasida. (Case #46)",
+                    "ru": "Финансы: Процентные ставки по кредиту на импорт технологий выросли в 2 раза. Проект на грани закрытия. (Кейс #46)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "IT-audit o'tkazish, loyihalarga kirish huquqini cheklash va xavfsizlik xizmati bilan tergov o'tkazish",
-                            "ru": "Провести IT-аудит, ограничить доступ к проектам и провести расследование со службой безопасности"
+                            "uz": "Loyiha xarajatlarini qayta ko'rib chiqish, refinanslash imkoniyatlarini izlash va investorlarni jalb qilish",
+                            "ru": "Пересмотр сметы, поиск рефинансирования и привлечение инвесторов"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Uni darhol hayfsan bilan jazolash",
-                            "ru": "Сразу наказать выговором"
+                            "uz": "Loyihani butunlay to'xtatish va xodimlarni bo'shatish",
+                            "ru": "Заморозить проект и уволить сотрудников"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Inkor qilib, unga ishonishda davom etish",
-                            "ru": "Игнорировать подозрения, продолжая доверять"
+                            "uz": "To'lovlarni to'xtatib, sud kutish",
+                            "ru": "Прекратить выплаты и ждать суда"
                         },
                         "score": 0
                     }
@@ -1843,35 +1843,35 @@ export const questionsPool = [
         "id": "sp47",
         "sectionId": "decision",
         "title": {
-            "uz": "Market Access & Pricing (Ssenariy 47)",
-            "ru": "Market Access & Pricing (Сценарий 47)"
+            "uz": "Regulatory Affairs (Case 47)",
+            "ru": "Regulatory Affairs (Кейс 47)"
         },
         "questions": [
             {
                 "id": "q_sp47",
                 "title": {
-                    "uz": "Narx siyosati: Davlat hayotiy muhim dorilar narxini 20% ga tushirdi. Sizning marjangiz endi nolga teng. (Case #47)",
-                    "ru": "Ценовая политика: Государство снизило цены на ЖНВЛП на 20%. Ваша маржа теперь равна нулю. (Кейс #47)"
+                    "uz": "Regulatory: Yangi qonunchilikka ko'ra, dorilar 3 oy ichida mahalliy tilda markirovka qilinishi kerak. Sizning zaxiralaringizda eski markirovkali dori juda ko'p. (Case #47)",
+                    "ru": "Регуляторика: Новые правила требуют маркировки на местном языке через 3 месяца. У вас большие запасы со старой маркировкой. (Кейс #47)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Ishlab chiqaruvchi bilan narxni pasaytirish bo'yicha muzokaralar olib borish va operatsion xarajatlarni optimallashtirish",
-                            "ru": "Переговоры с производителем о снижении цен и оптимизация операционных издержек"
+                            "uz": "Zudlik bilan stikerlash (re-labeling) jarayonini tashkil qilish va litsenziya olish",
+                            "ru": "Срочная организация переклейки (стикерования) и получение лицензии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Mahsulotni bozordan butunlay olib chiqib ketish",
-                            "ru": "Полностью вывести продукт с рынка"
+                            "uz": "Eskilarni arzonroq sotib tugatishga harakat qilish",
+                            "ru": "Продать остатки со скидкой до дедлайна"
                         },
-                        "score": 5
+                        "score": 10
                     },
                     {
                         "text": {
-                            "uz": "Noqonuniy qo'shimcha narxlar qo'shib sotish",
-                            "ru": "Продавать с незаконными наценками сверху"
+                            "uz": "Qoidalarni chetlab o'tish yo'llarini izlash",
+                            "ru": "Искать пути обхода правил"
                         },
                         "score": 0
                     }
@@ -1883,35 +1883,35 @@ export const questionsPool = [
         "id": "sp48",
         "sectionId": "decision",
         "title": {
-            "uz": "Compliance & GDP Maintenance (Ssenariy 48)",
-            "ru": "Compliance & GDP Maintenance (Сценарий 48)"
+            "uz": "Pharmacovigilance (Case 48)",
+            "ru": "Pharmacovigilance (Кейс 48)"
         },
         "questions": [
             {
                 "id": "q_sp48",
                 "title": {
-                    "uz": " GDP: Ombor mudiri sovuqxonada harorat og'ishini (Deviation) yashirib, hujjatlarni qo'lda to'g'rilab qo'ygani aniqlandi. (Case #48)",
-                    "ru": "GDP: Заведующий складом скрыл отклонение температуры в холодной камере и вручную исправил документы. (Кейс #48)"
+                    "uz": "PV: Dori vositasi bilan bog'liq jiddiy yon ta'sirlar haqida 5 ta xabar keldi. Klinik tadqiqotlarda bular yo'q edi. (Case #48)",
+                    "ru": "ПВ: Поступило 5 сообщений о серьезных побочных эффектах. В клинике их не было. (Кейс #48)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimni qat'iy intizomiy jazolash (bo'shatishgacha), barcha partiyalarni karantinga olish va qayta testlar o'tkazish",
-                            "ru": "Строгое дисциплинарное взыскание (вплоть до увольнения), карантин всех партий и повторные тесты"
+                            "uz": "Signalni baholash (Signal Detection) o'tkazish, MoHga xabar berish va tibbiy yo'riqnomaga o'zgartirish kiritish",
+                            "ru": "Провести оценку сигналов (Signal Detection), уведомить Минздрав и обновить инструкцию"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat xodimga og'zaki tanbeh berish",
-                            "ru": "Только устный выговор сотруднику"
+                            "uz": "Ko'proq holatlar to'planishini kutish",
+                            "ru": "Ждать накопления данных"
                         },
-                        "score": 2
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Tekshiruvga qadar hujjatlarni shunday qoldirish",
-                            "ru": "Оставить документы как есть до проверки"
+                            "uz": "Xabarlarni 'tasodif' deb hisoblash",
+                            "ru": "Списать сообщения на случайность"
                         },
                         "score": 0
                     }
@@ -1923,35 +1923,35 @@ export const questionsPool = [
         "id": "sp49",
         "sectionId": "decision",
         "title": {
-            "uz": "Corporate Strategy (Ssenariy 49)",
-            "ru": "Corporate Strategy (Сценарий 49)"
+            "uz": "GMP Facility Integrity (Case 49)",
+            "ru": "GMP Facility Integrity (Кейс 49)"
         },
         "questions": [
             {
                 "id": "q_sp49",
                 "title": {
-                    "uz": "Korporativ: Kompaniya raqobatchi bilan birlashishni (Merger) rejalashtirmoqda. Xodimlar orasida vahima boshlandi va ish unumdorligi tushdi. (Case #49)",
-                    "ru": "Корпоратив: Компания планирует слияние с конкурентом. Среди сотрудников началась паника, продуктивность упала. (Кейс #49)"
+                    "uz": "GMP: Zavodning shamollatish tizimida (HVAC) mikrobiologik ifloslanish aniqlandi. Mahsulotlar tozaligi shubhali. (Case #49)",
+                    "ru": "GMP: В системе вентиляции завода (HVAC) обнаружено микробное загрязнение. Чистота продукта под вопросом. (Кейс #49)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimlar bilan ochiq muloqot o'tkazish, yangi istiqbollarni tushuntirish va kafolatlar berish",
-                            "ru": "Провести открытую встречу, объяснить перспективы и дать гарантии"
+                            "uz": "Ishlab chiqarishni to'xtatish, validatsiyadan o'tkazish va shubhali partiyalarni utilizatsiya qilish",
+                            "ru": "Остановить производство, провести валидацию и утилизировать подозрительные партии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni 'maxfiy' deb tasdiqlash va savollarga javob bermaslik",
-                            "ru": "Подтвердить секретность и не отвечать на вопросы"
+                            "uz": "Faqat filtrlarni almashtirish va ishlashda davom etish",
+                            "ru": "Просто заменить фильтры и работать дальше"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Eshma-gap tarqatganlarni darhol bo'shatish",
-                            "ru": "Уволить тех, кто распространяет слухи"
+                            "uz": "Keyingi tekshiruvgacha hech narsa qilmaslik",
+                            "ru": "Ничего не делать до следующей проверки"
                         },
                         "score": 0
                     }
@@ -1963,35 +1963,35 @@ export const questionsPool = [
         "id": "sp50",
         "sectionId": "decision",
         "title": {
-            "uz": "Financial Risk Management (Ssenariy 50)",
-            "ru": "Financial Risk Management (Сценарий 50)"
+            "uz": "Business Continuity (Case 50)",
+            "ru": "Business Continuity (Кейс 50)"
         },
         "questions": [
             {
                 "id": "q_sp50",
                 "title": {
-                    "uz": "Moliya: Kurs o'zgarishi tufayli valyuta bilan to'lanadigan qarzlar 50% ga oshdi. Kompaniya defolt holatiga kelib qolishi mumkin. (Case #50)",
-                    "ru": "Финансы: Из-за девальвации валютные долги выросли на 50%. Компании грозит дефолт. (Кейс #50)"
+                    "uz": "BCP: Asosiy yetkazib beruvchi davlatida urush yoki tabiiy ofat yuz berdi. Xomashyo yetkazib berish to'xtadi. (Case #50)",
+                    "ru": "BCP: В стране основного поставщика форс-мажор. Поставки сырья прекратились. (Кейс #50)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Kreditorlar bilan to'lov muddatlarini uzaytirishni muzokara qilish, xarajatlarni qisqartirish va valyuta risklarini xedjlash",
-                            "ru": "Переговоры о реструктуризации долга, сокращение расходов и хеджирование валютных рисков"
+                            "uz": "Zaxira yetkazib beruvchilarni faollashtirish va xomashyo narxi oshishiga qaramay ishlab chiqarishni saqlab qolish",
+                            "ru": "Активировать резервных поставщиков и сохранить производство, несмотря на рост цен"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Kredit olib, eski qarzni yopish",
-                            "ru": "Взять новый кредит, чтобы закрыть старый"
+                            "uz": "Zavodni vaqtincha yopish",
+                            "ru": "Временно закрыть завод"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Hech narsa qilmasdan, inqirozni o'tib ketishini kutish",
-                            "ru": "Ничего не делать, ждать пока кризис пройдет"
+                            "uz": "Xomashyoni qora bozordan sotib olishni o'ylash",
+                            "ru": "Рассмотреть покупку сырья на сером рынке"
                         },
                         "score": 0
                     }
@@ -2003,35 +2003,35 @@ export const questionsPool = [
         "id": "sp51",
         "sectionId": "decision",
         "title": {
-            "uz": "Data Integrity & Audit (Ssenariy 51)",
-            "ru": "Data Integrity & Audit (Сценарий 51)"
+            "uz": "IP & Espionage (Case 51)",
+            "ru": "IP & Espionage (Кейс 51)"
         },
         "questions": [
             {
                 "id": "q_sp51",
                 "title": {
-                    "uz": "Tahlika: Ichki auditda QP (Qualified Person) tomonidan mahsulot chiqarishdan oldin laboratoriya testlari natijalari o'zgartirilgani (Data Manipulation) aniqlandi. Mahsulot bozorga chiqib ketgan. (Case #51)",
-                    "ru": "Кризис: В ходе аудита выяснилось, что QP (Qualified Person) манипулировал результатами лабораторных тестов перед выпуском. Товар уже на рынке. (Кейс #51)"
+                    "uz": "Shubha: Kompaniyaning yangi dori formulasi raqib tomonidan patentlanganiga o'xshaydi. Ichki ma'lumot sizilgan bo'lishi mumkin. (Case #51)",
+                    "ru": "Шпионаж: Похоже, формула нового препарата компании была запатентована конкурентом. Возможна внутренняя утечка. (Кейс #51)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Darhol bozor (Market Recall) jarayonini boshlash, QP vakolatini to'xtatish va nazorat organlariga (MoH) xabar berish",
-                            "ru": "Немедленный отзыв с рынка (Recall), приостановка полномочий QP и уведомление регулятора (Минздрав)"
+                            "uz": "Zudlik bilan huquqiy va IT-audit o'tkazish, loyiha a'zolarini tekshirish va sudga tayyorgarlik ko'rish",
+                            "ru": "Немедленный юридический и IT-аудит, проверка участников проекта и подготовка к суду"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat kelajakdagi partiyalar uchun nazoratni kuchaytirish, mahsulotni bozorda qoldirish",
-                            "ru": "Усилить контроль только для будущих партий, оставить товар на рынке"
+                            "uz": "Raqib bilan muzokara qilib, foydani bo'lishishni taklif qilish",
+                            "ru": "Переговоры с конкурентом о разделе прибыли"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ichki tekshiruv tugaguncha ma'lumotni yashirish",
-                            "ru": "Скрывать информацию до окончания внутреннего расследования"
+                            "uz": "Hech narsa qilmaslik, yangi formula ustida ishlashni boshlash",
+                            "ru": "Ничего не делать, начать работу над новой формулой"
                         },
                         "score": 0
                     }
@@ -2043,37 +2043,37 @@ export const questionsPool = [
         "id": "sp52",
         "sectionId": "decision",
         "title": {
-            "uz": "Strategic Procurement (Ssenariy 52)",
-            "ru": "Strategic Procurement (Сценарий 52)"
+            "uz": "Public Safety & PR (Case 52)",
+            "ru": "Public Safety & PR (Кейс 52)"
         },
         "questions": [
             {
                 "id": "q_sp52",
                 "title": {
-                    "uz": "Strategiya: Global ta'minotchi kutilmaganda narxni 40% ga oshirdi. Sizda bor zaxira 3 oyga yetadi. Mintaqadagi yagona rasmiy diler sizsiz. (Case #52)",
-                    "ru": "Стратегия: Глобальный поставщик неожиданно поднял цены на 40%. Запаса хватит на 3 месяца. Вы единственный дилер в регионе. (Кейс #52)"
+                    "uz": "Inqiroz: Ijtimoiy tarmoqlarda doringizdan so'ng bolalarda allergik reaksiya ko'paygani haqida xabarlar tarqaldi. Rasmiy shikoyat yo'q. (Case #52)",
+                    "ru": "Безопасность и PR: В соцсетях появились сообщения об аллергии у детей после вашего препарата. Официальных жалоб нет. (Кейс #52)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Mijozlar bilan narxlarni bosqichma-bosqich oshirish bo'yicha muzokaralar boshlash va muqobil yetkazib beruvchilarni qidirish",
-                            "ru": "Начать переговоры с клиентами о поэтапном повышении цен и искать альтернативных поставщиков"
+                            "uz": "Zudlik bilan namunalar tahlilini boshlash, matbuot xizmati orqali rasmiy tekshiruv ketayotganini bildirish",
+                            "ru": "Начать анализ проб, официально заявить через пресс-службу о начале проверки"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Zaxiralarni sotishni to'xtatib, narxlar ko'tarilganini e'lon qilish",
-                            "ru": "Приостановить продажи и объявить о резком повышении цен"
+                            "uz": "Xabarlarni 'feyk' deb e'lon qilish va javob bermaslik",
+                            "ru": "Объявить сообщения фейками и молчать"
                         },
-                        "score": 8
+                        "score": 0
                     },
                     {
                         "text": {
-                            "uz": "Eski narxda sotishda davom etib, zarar ko'rish",
-                            "ru": "Продолжать продажи по старой цене в убыток"
+                            "uz": "Xabarlar o'chirilishi uchun ijtimoiy tarmoqlarga pul to'lash",
+                            "ru": "Заплатить за удаление постов в соцсетях"
                         },
-                        "score": 2
+                        "score": 0
                     }
                 ]
             }
@@ -2083,37 +2083,37 @@ export const questionsPool = [
         "id": "sp53",
         "sectionId": "decision",
         "title": {
-            "uz": "Ethics & High-Level Negotiation (Ssenariy 53)",
-            "ru": "Ethics & High-Level Negotiation (Сценарий 53)"
+            "uz": "Supply Chain Integrity (Case 53)",
+            "ru": "Supply Chain Integrity (Кейс 53)"
         },
         "questions": [
             {
                 "id": "q_sp53",
                 "title": {
-                    "uz": "Etika: Strategik mijoz (hukumat amaldori) shubhali tender shartlarini kiritmoqda va sizdan loyihani 'qo'llab-quvvatlash'ni so'rayapti. (Case #53)",
-                    "ru": "Этика: Стратегический клиент (госчиновник) вводит сомнительные условия тендера и просит 'поддержать' проект. (Кейс #53)"
+                    "uz": "Logistika: GDP auditi davomida mintaqaviy hamkor omborida haroratni nazorat qilish tizimi 1 hafta ishlamagani ma'lum bo'ldi. (Case #53)",
+                    "ru": "Логистика: Аудит выявил, что система климат-контроля на складе партнера не работала неделю. (Кейс #53)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Loyiha komplians qoidalariga zid ekanligini bildirish va qonuniy hamkorlik doirasida qolishni talab qilish",
-                            "ru": "Заявить о несоответствии проекта правилам комплаенса и требовать законных рамок сотрудничества"
+                            "uz": "Hamkor bilan shartnomani to'xtatish, u yerdagi barcha mahsulotlarni utilizatsiya qilish va zarar to'lanishini talab qilish",
+                            "ru": "Разрыв контракта с партнером, утилизация всей продукции и требование компенсации"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Qisman rozilik berish, keyinchalik xavfni baholash",
-                            "ru": "Частично согласиться, оценив риски позже"
+                            "uz": "Yaxshilab tekshirib, sifatli chiqqanlarini sotishga ruxsat berish",
+                            "ru": "Проверить и разрешить продажу того, что прошло тест"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Soliqdan qochish yo'llarini izlab, shartlarni bajarish",
-                            "ru": "Выполнить условия, ища пути минимизации налогов"
+                            "uz": "Jarima solish, lekin mahsulotni sotuvda qoldirish",
+                            "ru": "Оштрафовать, но оставить товар в продаже"
                         },
-                        "score": 0
+                        "score": 2
                     }
                 ]
             }
@@ -2123,35 +2123,35 @@ export const questionsPool = [
         "id": "sp54",
         "sectionId": "decision",
         "title": {
-            "uz": "Pharmacovigilance Crisis (Ssenariy 54)",
-            "ru": "Pharmacovigilance Crisis (Сценарий 54)"
+            "uz": "Strategic Market Access (Case 54)",
+            "ru": "Strategic Market Access (Кейс 54)"
         },
         "questions": [
             {
                 "id": "q_sp54",
                 "title": {
-                    "uz": "Farmakonazorat: Sizning eng ko'p sotiladigan doringizdan so'ng 3 ta o'lim holati qayd etildi. Sabab-oqibat aloqasi isbotlanmagan. (Case #54)",
-                    "ru": "Фармаконадзор: Зафиксировано 3 летальных случая после приема вашего самого продаваемого препарата. Связь не доказана. (Кейс #54)"
+                    "uz": "Bozor: Raqib kompaniya bozorni 'dempi'ng narxlar bilan egallamoqda. Sizning marjangiz tushib ketgan. (Case #54)",
+                    "ru": "Рынок: Конкурент захватывает рынок демпинговыми ценами. Ваша маржа упала. (Кейс #54)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Zudlik bilan savdoni to'xtatib turish, tergov boshlash va farmakologik nazorat organiga xabar berish",
-                            "ru": "Приостановить продажи, начать расследование и уведомить орган фармаконадзора"
+                            "uz": "Xizmat ko'rsatish sifati va dori ishonchliligiga urg'u berish, uzoq muddatli shartnomalar tuzish",
+                            "ru": "Упор на качество сервиса и надежность препарата, долгосрочные контракты"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Isbot topilmaguncha savdoni davom ettirish va shifokorlarga 'ehtiyot bo'lish'ni aytish",
-                            "ru": "Продолжать продажи до доказательства связи, сказав врачам быть осторожными"
+                            "uz": "Narxni raqibdan pastroq qilish (narx urushi)",
+                            "ru": "Снизить цену еще ниже конкурента (ценовая война)"
                         },
-                        "score": 8
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni yashirish va matbuotda inkor qilish",
-                            "ru": "Скрыть информацию и отрицать факты в прессе"
+                            "uz": "Sifatdan voz kechib, arzonroq komponentlarga o'tish",
+                            "ru": "Снизить качество, перейдя на дешевые компоненты"
                         },
                         "score": 0
                     }
@@ -2163,37 +2163,37 @@ export const questionsPool = [
         "id": "sp55",
         "sectionId": "decision",
         "title": {
-            "uz": "Logistics & Sanctions (Ssenariy 55)",
-            "ru": "Logistics & Sanctions (Сценарий 55)"
+            "uz": "Ethics & Compliance (Case 55)",
+            "ru": "Ethics & Compliance (Кейс 55)"
         },
         "questions": [
             {
                 "id": "q_sp55",
                 "title": {
-                    "uz": "Logistika: Banklararo blokovka tufayli chet eldagi zavodga to'lov o'tmadi. Yuk portda turibdi va sifatini yo'qotish xavfi bor. (Case #55)",
-                    "ru": "Логистика: Из-за блокировки межбанковских переводов оплата заводу за рубеж не прошла. Груз в порту, есть риск потери качества. (Кейс #55)"
+                    "uz": "Muvofiqlik: Kompaniya vakili shifokorlarga mahsulotni targ'ib qilish uchun qimmatbaho sovg'alar berayotgani haqida video chiqdi. (Case #55)",
+                    "ru": "Комплаенс: Появилось видео, как представитель компании дарит врачам дорогие подарки за лоббирование товара. (Кейс #55)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Muqobil bank kanallarini qidirish va yukni vaqtinchalik termal omborga ko'chirishni moliyalashtirish",
-                            "ru": "Искать альтернативные банковские каналы и профинансировать перемещение груза на термосклад"
+                            "uz": "Vakilni darhol ishdan bo'shatish, ichki komplians auditini o'tkazish va rasmiy uzr so'rash",
+                            "ru": "Мгновенное увольнение, внутренний аудит комплаенса и публичные извинения"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Bank muammosi hal bo'lishini kutish, yukka tegmaslik",
-                            "ru": "Ждать решения проблемы с банком, не трогая груз"
+                            "uz": "Bu vakilning shaxsiy tashabbusi ekanligini aytib, mas'uliyatdan qochish",
+                            "ru": "Сказать, что это личная инициатива сотрудника, и уйти от ответственности"
                         },
-                        "score": 0
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Zavoddan yukni bepul berib yuborishni iltimos qilish",
-                            "ru": "Просить завод отдать груз бесплатно на доверии"
+                            "uz": "Videoni o'chirishga harakat qilish va pul berish",
+                            "ru": "Попытаться выкупить и удалить видео"
                         },
-                        "score": 5
+                        "score": 0
                     }
                 ]
             }
@@ -2203,35 +2203,35 @@ export const questionsPool = [
         "id": "sp56",
         "sectionId": "decision",
         "title": {
-            "uz": "HR & Internal Security (Ssenariy 56)",
-            "ru": "HR & Internal Security (Сценарий 56)"
+            "uz": "Financial Crisis Management (Case 56)",
+            "ru": "Financial Crisis Management (Кейс 56)"
         },
         "questions": [
             {
                 "id": "q_sp56",
                 "title": {
-                    "uz": "Xavfsizlik: Bosh texnolog patentlangan formulani raqibga sotayotgani va unga o'tishga tayyorlanayotgani haqida shubha bor. (Case #56)",
-                    "ru": "Безопасность: Есть подозрение, что главный технолог продает формулу конкуренту и готовится к переходу. (Кейс #56)"
+                    "uz": "Moliya: Import qilinayotgan texnologiya uchun kredit foizlari kutilmaganda 2 barobar oshdi. Loyiha to'xtab qolish arafasida. (Case #56)",
+                    "ru": "Финансы: Процентные ставки по кредиту на импорт технологий выросли в 2 раза. Проект на грани закрытия. (Кейс #56)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "IT-audit o'tkazish, loyihalarga kirish huquqini cheklash va xavfsizlik xizmati bilan tergov o'tkazish",
-                            "ru": "Провести IT-аудит, ограничить доступ к проектам и провести расследование со службой безопасности"
+                            "uz": "Loyiha xarajatlarini qayta ko'rib chiqish, refinanslash imkoniyatlarini izlash va investorlarni jalb qilish",
+                            "ru": "Пересмотр сметы, поиск рефинансирования и привлечение инвесторов"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Uni darhol hayfsan bilan jazolash",
-                            "ru": "Сразу наказать выговором"
+                            "uz": "Loyihani butunlay to'xtatish va xodimlarni bo'shatish",
+                            "ru": "Заморозить проект и уволить сотрудников"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Inkor qilib, unga ishonishda davom etish",
-                            "ru": "Игнорировать подозрения, продолжая доверять"
+                            "uz": "To'lovlarni to'xtatib, sud kutish",
+                            "ru": "Прекратить выплаты и ждать суда"
                         },
                         "score": 0
                     }
@@ -2243,35 +2243,35 @@ export const questionsPool = [
         "id": "sp57",
         "sectionId": "decision",
         "title": {
-            "uz": "Market Access & Pricing (Ssenariy 57)",
-            "ru": "Market Access & Pricing (Сценарий 57)"
+            "uz": "Regulatory Affairs (Case 57)",
+            "ru": "Regulatory Affairs (Кейс 57)"
         },
         "questions": [
             {
                 "id": "q_sp57",
                 "title": {
-                    "uz": "Narx siyosati: Davlat hayotiy muhim dorilar narxini 20% ga tushirdi. Sizning marjangiz endi nolga teng. (Case #57)",
-                    "ru": "Ценовая политика: Государство снизило цены на ЖНВЛП на 20%. Ваша маржа теперь равна нулю. (Кейс #57)"
+                    "uz": "Regulatory: Yangi qonunchilikka ko'ra, dorilar 3 oy ichida mahalliy tilda markirovka qilinishi kerak. Sizning zaxiralaringizda eski markirovkali dori juda ko'p. (Case #57)",
+                    "ru": "Регуляторика: Новые правила требуют маркировки на местном языке через 3 месяца. У вас большие запасы со старой маркировкой. (Кейс #57)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Ishlab chiqaruvchi bilan narxni pasaytirish bo'yicha muzokaralar olib borish va operatsion xarajatlarni optimallashtirish",
-                            "ru": "Переговоры с производителем о снижении цен и оптимизация операционных издержек"
+                            "uz": "Zudlik bilan stikerlash (re-labeling) jarayonini tashkil qilish va litsenziya olish",
+                            "ru": "Срочная организация переклейки (стикерования) и получение лицензии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Mahsulotni bozordan butunlay olib chiqib ketish",
-                            "ru": "Полностью вывести продукт с рынка"
+                            "uz": "Eskilarni arzonroq sotib tugatishga harakat qilish",
+                            "ru": "Продать остатки со скидкой до дедлайна"
                         },
-                        "score": 5
+                        "score": 10
                     },
                     {
                         "text": {
-                            "uz": "Noqonuniy qo'shimcha narxlar qo'shib sotish",
-                            "ru": "Продавать с незаконными наценками сверху"
+                            "uz": "Qoidalarni chetlab o'tish yo'llarini izlash",
+                            "ru": "Искать пути обхода правил"
                         },
                         "score": 0
                     }
@@ -2283,35 +2283,35 @@ export const questionsPool = [
         "id": "sp58",
         "sectionId": "decision",
         "title": {
-            "uz": "Compliance & GDP Maintenance (Ssenariy 58)",
-            "ru": "Compliance & GDP Maintenance (Сценарий 58)"
+            "uz": "Pharmacovigilance (Case 58)",
+            "ru": "Pharmacovigilance (Кейс 58)"
         },
         "questions": [
             {
                 "id": "q_sp58",
                 "title": {
-                    "uz": " GDP: Ombor mudiri sovuqxonada harorat og'ishini (Deviation) yashirib, hujjatlarni qo'lda to'g'rilab qo'ygani aniqlandi. (Case #58)",
-                    "ru": "GDP: Заведующий складом скрыл отклонение температуры в холодной камере и вручную исправил документы. (Кейс #58)"
+                    "uz": "PV: Dori vositasi bilan bog'liq jiddiy yon ta'sirlar haqida 5 ta xabar keldi. Klinik tadqiqotlarda bular yo'q edi. (Case #58)",
+                    "ru": "ПВ: Поступило 5 сообщений о серьезных побочных эффектах. В клинике их не было. (Кейс #58)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimni qat'iy intizomiy jazolash (bo'shatishgacha), barcha partiyalarni karantinga olish va qayta testlar o'tkazish",
-                            "ru": "Строгое дисциплинарное взыскание (вплоть до увольнения), карантин всех партий и повторные тесты"
+                            "uz": "Signalni baholash (Signal Detection) o'tkazish, MoHga xabar berish va tibbiy yo'riqnomaga o'zgartirish kiritish",
+                            "ru": "Провести оценку сигналов (Signal Detection), уведомить Минздрав и обновить инструкцию"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Faqat xodimga og'zaki tanbeh berish",
-                            "ru": "Только устный выговор сотруднику"
+                            "uz": "Ko'proq holatlar to'planishini kutish",
+                            "ru": "Ждать накопления данных"
                         },
-                        "score": 2
+                        "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Tekshiruvga qadar hujjatlarni shunday qoldirish",
-                            "ru": "Оставить документы как есть до проверки"
+                            "uz": "Xabarlarni 'tasodif' deb hisoblash",
+                            "ru": "Списать сообщения на случайность"
                         },
                         "score": 0
                     }
@@ -2323,35 +2323,35 @@ export const questionsPool = [
         "id": "sp59",
         "sectionId": "decision",
         "title": {
-            "uz": "Corporate Strategy (Ssenariy 59)",
-            "ru": "Corporate Strategy (Сценарий 59)"
+            "uz": "GMP Facility Integrity (Case 59)",
+            "ru": "GMP Facility Integrity (Кейс 59)"
         },
         "questions": [
             {
                 "id": "q_sp59",
                 "title": {
-                    "uz": "Korporativ: Kompaniya raqobatchi bilan birlashishni (Merger) rejalashtirmoqda. Xodimlar orasida vahima boshlandi va ish unumdorligi tushdi. (Case #59)",
-                    "ru": "Корпоратив: Компания планирует слияние с конкурентом. Среди сотрудников началась паника, продуктивность упала. (Кейс #59)"
+                    "uz": "GMP: Zavodning shamollatish tizimida (HVAC) mikrobiologik ifloslanish aniqlandi. Mahsulotlar tozaligi shubhali. (Case #59)",
+                    "ru": "GMP: В системе вентиляции завода (HVAC) обнаружено микробное загрязнение. Чистота продукта под вопросом. (Кейс #59)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Xodimlar bilan ochiq muloqot o'tkazish, yangi istiqbollarni tushuntirish va kafolatlar berish",
-                            "ru": "Провести открытую встречу, объяснить перспективы и дать гарантии"
+                            "uz": "Ishlab chiqarishni to'xtatish, validatsiyadan o'tkazish va shubhali partiyalarni utilizatsiya qilish",
+                            "ru": "Остановить производство, провести валидацию и утилизировать подозрительные партии"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Ma'lumotni 'maxfiy' deb tasdiqlash va savollarga javob bermaslik",
-                            "ru": "Подтвердить секретность и не отвечать на вопросы"
+                            "uz": "Faqat filtrlarni almashtirish va ishlashda davom etish",
+                            "ru": "Просто заменить фильтры и работать дальше"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Eshma-gap tarqatganlarni darhol bo'shatish",
-                            "ru": "Уволить тех, кто распространяет слухи"
+                            "uz": "Keyingi tekshiruvgacha hech narsa qilmaslik",
+                            "ru": "Ничего не делать до следующей проверки"
                         },
                         "score": 0
                     }
@@ -2363,35 +2363,35 @@ export const questionsPool = [
         "id": "sp60",
         "sectionId": "decision",
         "title": {
-            "uz": "Financial Risk Management (Ssenariy 60)",
-            "ru": "Financial Risk Management (Сценарий 60)"
+            "uz": "Business Continuity (Case 60)",
+            "ru": "Business Continuity (Кейс 60)"
         },
         "questions": [
             {
                 "id": "q_sp60",
                 "title": {
-                    "uz": "Moliya: Kurs o'zgarishi tufayli valyuta bilan to'lanadigan qarzlar 50% ga oshdi. Kompaniya defolt holatiga kelib qolishi mumkin. (Case #60)",
-                    "ru": "Финансы: Из-за девальвации валютные долги выросли на 50%. Компании грозит дефолт. (Кейс #60)"
+                    "uz": "BCP: Asosiy yetkazib beruvchi davlatida urush yoki tabiiy ofat yuz berdi. Xomashyo yetkazib berish to'xtadi. (Case #60)",
+                    "ru": "BCP: В стране основного поставщика форс-мажор. Поставки сырья прекратились. (Кейс #60)"
                 },
                 "options": [
                     {
                         "text": {
-                            "uz": "Kreditorlar bilan to'lov muddatlarini uzaytirishni muzokara qilish, xarajatlarni qisqartirish va valyuta risklarini xedjlash",
-                            "ru": "Переговоры о реструктуризации долга, сокращение расходов и хеджирование валютных рисков"
+                            "uz": "Zaxira yetkazib beruvchilarni faollashtirish va xomashyo narxi oshishiga qaramay ishlab chiqarishni saqlab qolish",
+                            "ru": "Активировать резервных поставщиков и сохранить производство, несмотря на рост цен"
                         },
                         "score": 20
                     },
                     {
                         "text": {
-                            "uz": "Kredit olib, eski qarzni yopish",
-                            "ru": "Взять новый кредит, чтобы закрыть старый"
+                            "uz": "Zavodni vaqtincha yopish",
+                            "ru": "Временно закрыть завод"
                         },
                         "score": 5
                     },
                     {
                         "text": {
-                            "uz": "Hech narsa qilmasdan, inqirozni o'tib ketishini kutish",
-                            "ru": "Ничего не делать, ждать пока кризис пройдет"
+                            "uz": "Xomashyoni qora bozordan sotib olishni o'ylash",
+                            "ru": "Рассмотреть покупку сырья на сером рынке"
                         },
                         "score": 0
                     }
