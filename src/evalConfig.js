@@ -1,9 +1,10 @@
 import { questionsPool } from './questionsPool';
 
-export const evalConfig = [
+// Standard KPI Sections
+const kpiSections = [
     {
         sectionId: 's1',
-        weight: 30,
+        weight: 20,
         questions: [
             {
                 id: 'q1_1',
@@ -27,7 +28,7 @@ export const evalConfig = [
     },
     {
         sectionId: 's2',
-        weight: 20,
+        weight: 15,
         questions: [
             {
                 id: 'q2_1',
@@ -41,38 +42,8 @@ export const evalConfig = [
         ]
     },
     {
-        sectionId: 's3',
-        weight: 15,
-        questions: [
-            {
-                id: 'q3_1',
-                title: { uz: "Qayta ro'yxatdan o'tkazish jarayonlarini boshqarish", ru: "Управление процессами перерегистрации" },
-                options: [
-                    { text: { uz: "Effektiv boshqariladi", ru: "Эффективно управляется" }, score: 100 },
-                    { text: { uz: "Qiyinchiliklar bilan", ru: "С трудностями" }, score: 50 },
-                    { text: { uz: "Boshqaruvsiz", ru: "Без управления" }, score: 0 }
-                ]
-            }
-        ]
-    },
-    {
-        sectionId: 's4',
-        weight: 15,
-        questions: [
-            {
-                id: 'q4_1',
-                title: { uz: "So'rovlarga javob berish tezligi va sifati", ru: "Скорость и качество ответов на запросы" },
-                options: [
-                    { text: { uz: "Tezkor va sifatli", ru: "Быстро и качественно" }, score: 100 },
-                    { text: { uz: "Qoniqarli", ru: "Удовлетворительно" }, score: 50 },
-                    { text: { uz: "Sekin va sifatsiz", ru: "Медленно и некачественно" }, score: 0 }
-                ]
-            }
-        ]
-    },
-    {
         sectionId: 's5',
-        weight: 20,
+        weight: 15,
         questions: [
             {
                 id: 'q5_1',
@@ -82,17 +53,23 @@ export const evalConfig = [
                     { text: { uz: "Qisman bajarilgan yoki kechikishlar bilan", ru: "Выполнено частично или с задержками" }, score: 50 },
                     { text: { uz: "Yangi tartiblar umuman amalga oshirilmadi", ru: "Новые процедуры не внедрены вовсе" }, score: 0 }
                 ]
-            },
-            {
-                id: 'q5_2',
-                title: { uz: "O'zaro ko'mak va hujjatlar sifati", ru: "Взаимная помощь и качество документов" },
-                options: [
-                    { text: { uz: "Mukammal darajada", ru: "На отличном уровне" }, score: 100 },
-                    { text: { uz: "Qoniqarli darajada", ru: "На удовлетворительном уровне" }, score: 50 },
-                    { text: { uz: "Qoniqarsiz", ru: "Неудовлетворительно" }, score: 0 }
-                ]
             }
         ]
+    }
+];
+
+// Combine into a single unified config
+// We take the KPIs and append a randomized selection of 20 Decision Scenarios
+export const evalConfig = [
+    ...kpiSections,
+    // Add Decision Scenarios as a final "Leadership & Judgment" section
+    {
+        sectionId: 'decision',
+        weight: 50, // Decision making carries heavy weight now
+        questions: [...questionsPool]
+            .sort(() => 0.5 - Math.random())
+            .slice(0, 20)
+            .flatMap(q => q.questions) // Flatten the structure from questionsPool
     }
 ];
 
@@ -104,4 +81,5 @@ export const getRating = (totalScore) => {
     return 'unsatisfactory';
 };
 
+// For backward compatibility or internal checks
 export const decisionTestConfig = questionsPool;

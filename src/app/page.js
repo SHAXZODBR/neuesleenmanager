@@ -9,28 +9,17 @@ import { evalConfig, decisionTestConfig } from '@/evalConfig';
 export default function Home() {
   const [lang, setLang] = useState('uz');
   const [isEvaluating, setIsEvaluating] = useState(false);
-  const [evalType, setEvalType] = useState(null); // 'kpi' or 'decision'
   const [submissionSuccess, setSubmissionSuccess] = useState(false);
   const [randomizedConfig, setRandomizedConfig] = useState([]);
 
-  const text = locales[lang];
-
-  const handleStart = (type) => {
-    setEvalType(type);
-    if (type === 'decision') {
-      // Shuffle the 100-question pool and take 30
-      const shuffled = [...decisionTestConfig].sort(() => 0.5 - Math.random());
-      setRandomizedConfig(shuffled.slice(0, 30));
-    } else {
-      setRandomizedConfig(evalConfig);
-    }
+  const handleStart = () => {
+    setRandomizedConfig(evalConfig);
     setIsEvaluating(true);
     setSubmissionSuccess(false);
   };
 
   const handleRestart = () => {
     setIsEvaluating(false);
-    setEvalType(null);
     setSubmissionSuccess(false);
     setRandomizedConfig([]);
   };
@@ -42,7 +31,7 @@ export default function Home() {
         employeeName,
         answers,
         lang,
-        evalType // Include evaluation type in the payload
+        evalType: 'unified' // Now unified
       };
 
       // Call the backend API
@@ -95,30 +84,18 @@ export default function Home() {
           <div className="app-wrapper fade-in" style={{ textAlign: 'center', marginTop: '4rem' }}>
             <div className="glass-container" style={{ display: 'inline-block', maxWidth: '800px', width: '100%' }}>
               <h2 style={{ fontSize: '2.5rem', marginBottom: '1.5rem' }}>
-                <span role="img" aria-label="chart">📊</span> {text.selectEvaluation}
+                <span role="img" aria-label="chart">📊</span> {text.appTitle}
               </h2>
-
-              <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '1.5rem', marginBottom: '2rem' }}>
-                <div
-                  className="glass-card mode-select-card"
-                  onClick={() => handleStart('kpi')}
-                  style={{ cursor: 'pointer', padding: '2rem', border: '1px solid var(--glass-border)', borderRadius: '15px' }}
-                >
-                  <h3 style={{ color: '#60a5fa', marginBottom: '1rem' }}>{text.kpiAppraisal}</h3>
-                  <p style={{ fontSize: '0.9rem', color: '#94a3b8' }}>Standard performance review based on operational KPIs.</p>
-                  <button className="btn btn-primary" style={{ marginTop: '1.5rem', width: '100%' }}>{text.startBtn}</button>
-                </div>
-
-                <div
-                  className="glass-card mode-select-card"
-                  onClick={() => handleStart('decision')}
-                  style={{ cursor: 'pointer', padding: '2rem', border: '1px solid var(--glass-border)', borderRadius: '15px' }}
-                >
-                  <h3 style={{ color: '#34d399', marginBottom: '1rem' }}>{text.decisionTest}</h3>
-                  <p style={{ fontSize: '0.9rem', color: '#94a3b8' }}>Advanced decision-making and IQ test for pharmaceutical managers.</p>
-                  <button className="btn btn-primary" style={{ marginTop: '1.5rem', width: '100%', backgroundColor: '#059669' }}>{text.startBtn}</button>
-                </div>
-              </div>
+              <p style={{ color: '#94a3b8', marginBottom: '2rem' }}>
+                Performance metrics and strategic decision-making scenarios combined for a comprehensive appraisal.
+              </p>
+              <button
+                className="btn btn-primary"
+                style={{ padding: '1rem 3rem', fontSize: '1.2rem' }}
+                onClick={handleStart}
+              >
+                {text.startBtn}
+              </button>
             </div>
           </div>
         )}

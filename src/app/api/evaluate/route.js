@@ -14,15 +14,12 @@ export async function POST(request) {
     const { employeeName, answers, lang, evalType } = data;
     const text = locales[lang];
 
-    // Determine which config to use
-    const activeConfig = evalType === 'decision' ? decisionTestConfig : evalConfig;
-
     // 1. Calculate the score securely on the backend
     let totalScore = 0;
     let maxPossibleTotal = 0;
     const answeredStrings = [];
 
-    activeConfig.forEach(section => {
+    evalConfig.forEach(section => {
       section.questions.forEach(q => {
         const selectedOptionIndex = answers[q.id];
         // Handle undefined, null, or out-of-bounds indices
@@ -34,12 +31,13 @@ export async function POST(request) {
             return;
           }
 
-          // Find the maximum possible score for this question to determine "correctness"
+          // Use weight for KPIs (s sections), or default weight 1 for decisions
+          const weight = section.weight || 1;
           const maxPossibleScore = Math.max(...q.options.map(opt => opt.score));
           const scoreAchieved = selectedOption.score || 0;
 
-          totalScore += scoreAchieved;
-          maxPossibleTotal += maxPossibleScore;
+          totalScore += (scoreAchieved * (weight / 100));
+          maxPossibleTotal += (maxPossibleScore * (weight / 100));
 
           let statusEmoji = "❌"; // Failed/Lowest
           if (scoreAchieved === maxPossibleScore) {
@@ -66,23 +64,24 @@ export async function POST(request) {
     if (genAI) {
       const promptLanguage = lang === 'uz' ? 'Uzbek' : 'Russian';
       try {
-        const evaluationTitle = evalType === 'decision' ? "Manager Decision-Making Test" : "Performance KPI Appraisal";
-
         const prompt = `You are an expert HR and Pharmaceutical Distribution Manager Appraiser.
-Provide a highly detailed, professional analysis of the employee's performance in a ${evaluationTitle}.
+Provide a highly detailed, professional analysis of the employee's performance in a "Unified Performance & Leadership Appraisal 2025".
+This appraisal combines Hard KPIs (operational metrics) with Strategic Leadership Judgment (decision-making cases).
+
 Reply ONLY in ${promptLanguage}.
 
 Structure your response with the following sections (use clear text formatting, no markdown):
-1. Executive Summary: Overview of overall performance.
-2. Key Strengths: Analyze areas where they scored high (✅).
-3. Areas for Improvement: Identify any low scores (❌ or ⚠️).
-4. Actionable Recommendations: Specific next steps.
+1. Executive Summary: Overview of overall performance (High-level).
+2. Operational Excellence (KPIs): Analyze their performance in technical/regulatory metrics.
+3. Leadership & Judgment: Analyze their strategic decision-making and ethical choices in the scenarios.
+4. Key Strengths: Areas where they scored high (✅).
+5. Growth Opportunities: Identify any low scores (❌ or ⚠️) and provide actionable steps.
 
 Employee Name: ${employeeName}
 Score: ${finalScore}/100
 Rating: ${ratingText}
 
-Answers:
+Detailed Results:
 ${answeredStrings.join("\n")}`;
 
         // The diagnostic curl showed access to these specific models

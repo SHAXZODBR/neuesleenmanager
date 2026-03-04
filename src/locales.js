@@ -33,14 +33,11 @@ export const locales = {
             needsImprovement: "Yaxshilash kerak (60-69)",
             unsatisfactory: "Qoniqarsiz (<60)"
         },
-        selectEvaluation: "Baholash turini tanlang",
-        kpiAppraisal: "KPI ko'rsatkichlari bo'yicha baholash",
-        decisionTest: "Menejerlik qarorlari testi (Farmatsevtika)",
-        startBtn: "Boshlash"
+        startBtn: "Baholashni boshlash"
     },
     ru: {
-        appTitle: "Оценка Эффективности – 2025",
-        appSubtitle: "Система оценки менеджера по нормативно-правовым вопросам",
+        appTitle: "Менеджер компетенцияси ва KPI баҳолаш – 2025",
+        appSubtitle: "Комплексная система оценки эффективности и лидерства",
         employeeName: "ФИО сотрудника",
         position: "Должность",
         managerName: "Оценивающий менеджер",
@@ -51,7 +48,7 @@ export const locales = {
         employeeDetails: "Данные сотрудника",
         back: "Назад",
         successMessage: "Оценка успешно отправлена!",
-        successSubmessage: "Результаты проанализированы искусственным интеллектом и сохранены в базе данных.",
+        successSubmessage: "Результаты проанализированы и отправлены на электронную почту.",
         returnHome: "Вернуться на главную",
         sections: {
             s1: "1. Регистрация и утверждение новых продуктов",
@@ -59,11 +56,7 @@ export const locales = {
             s3: "3. Жизненный цикл и управление обновлениями",
             s4: "4. Управление запросами инстанций",
             s5: "5. Стратегический вклад и координация",
-            dt1: "1. Холодовая цепь",
-            dt2: "2. Аудит и регламент",
-            dt3: "3. Распределение ресурсов",
-            dt4: "4. Работа с кадрами",
-            dt5: "5. Логистический кризис"
+            decision: "Управленческие решения и лидерство"
         },
         ratings: {
             outstanding: "Отлично (90-100)",
@@ -72,9 +65,6 @@ export const locales = {
             needsImprovement: "Нуждается в улучшении (60-69)",
             unsatisfactory: "Неудовлетворительно (<60)"
         },
-        selectEvaluation: "Выберите тип оценки",
-        kpiAppraisal: "Оценка по показателям KPI",
-        decisionTest: "Тест управленческих решений (Фарма)",
-        startBtn: "Начать"
+        startBtn: "Начать оценку"
     }
 };
