@@ -11,6 +11,7 @@ export default function Home() {
   const [isEvaluating, setIsEvaluating] = useState(false);
   const [submissionSuccess, setSubmissionSuccess] = useState(false);
   const [randomizedConfig, setRandomizedConfig] = useState([]);
+  const text = locales[lang];
 
   const handleStart = () => {
     setRandomizedConfig(evalConfig);
